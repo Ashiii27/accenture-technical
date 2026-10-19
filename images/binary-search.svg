@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="450" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="449" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Binary Search — Three Steps to Find 45 in a Sorted Array</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Each comparison throws away HALF of the remaining range → O(log n)</text>
+<text x="30.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Step 1</text>
+<rect x="110.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="141.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">2</text>
+<text x="141.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">0</text>
+<text x="141.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">low</text>
+<rect x="176.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="207.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<text x="207.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">1</text>
+<rect x="242.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="273.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">8</text>
+<text x="273.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">2</text>
+<rect x="308.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="339.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">12</text>
+<text x="339.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">3</text>
+<rect x="374.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="405.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">16</text>
+<text x="405.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">4</text>
+<text x="405.0" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#d97706" text-anchor="middle" font-weight="bold">mid</text>
+<rect x="440.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="471.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">23</text>
+<text x="471.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">5</text>
+<rect x="506.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="537.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">38</text>
+<text x="537.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">6</text>
+<rect x="572.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="603.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">45</text>
+<text x="603.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">7</text>
+<rect x="638.0" y="82.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="669.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">67</text>
+<text x="669.0" y="76.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">8</text>
+<text x="669.0" y="132.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">high</text>
+<text x="30.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#475569" text-anchor="start" font-weight="normal">A[4] = 16 &lt; 45  →  search RIGHT</text>
+<text x="30.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Step 2</text>
+<rect x="110.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="141.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">2</text>
+<text x="141.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">0</text>
+<rect x="176.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="207.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<text x="207.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">1</text>
+<rect x="242.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="273.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">8</text>
+<text x="273.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">2</text>
+<rect x="308.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="339.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">12</text>
+<text x="339.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">3</text>
+<rect x="374.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="405.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">16</text>
+<text x="405.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">4</text>
+<rect x="440.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="471.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">23</text>
+<text x="471.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">5</text>
+<text x="471.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">low</text>
+<rect x="506.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="537.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">38</text>
+<text x="537.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">6</text>
+<text x="537.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#d97706" text-anchor="middle" font-weight="bold">mid</text>
+<rect x="572.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="603.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">45</text>
+<text x="603.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">7</text>
+<rect x="638.0" y="182.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="669.0" y="208.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">67</text>
+<text x="669.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">8</text>
+<text x="669.0" y="232.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">high</text>
+<text x="30.0" y="266.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#475569" text-anchor="start" font-weight="normal">A[6] = 38 &lt; 45  →  search RIGHT</text>
+<text x="30.0" y="300.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Step 3</text>
+<rect x="110.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="141.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">2</text>
+<text x="141.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">0</text>
+<rect x="176.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="207.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<text x="207.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">1</text>
+<rect x="242.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="273.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">8</text>
+<text x="273.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">2</text>
+<rect x="308.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="339.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">12</text>
+<text x="339.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">3</text>
+<rect x="374.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="405.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">16</text>
+<text x="405.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">4</text>
+<rect x="440.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="471.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">23</text>
+<text x="471.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">5</text>
+<rect x="506.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f2f2f2" stroke="#475569" stroke-width="1.4"/>
+<text x="537.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">38</text>
+<text x="537.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">6</text>
+<rect x="572.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.4"/>
+<text x="603.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">45</text>
+<text x="603.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">7</text>
+<text x="603.0" y="332.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">low</text>
+<text x="603.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#d97706" text-anchor="middle" font-weight="bold">mid</text>
+<rect x="638.0" y="282.0" width="62.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="669.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">67</text>
+<text x="669.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">8</text>
+<text x="669.0" y="332.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">high</text>
+<text x="30.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#475569" text-anchor="start" font-weight="normal">A[7] = 45  →  FOUND at index 7</text>
+<rect x="30.0" y="380.0" width="740.0" height="40.0" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="46.0" y="398.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Comparisons: 3 for 9 elements. For 1,000,000 elements binary search needs ~20; a linear scan needs up to 1,000,000.</text>
+<text x="46.0" y="414.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Preconditions: SORTED data + RANDOM ACCESS (arrays yes, linked lists no).</text>
+</svg>

@@ -18,6 +18,8 @@ The OSI (Open Systems Interconnection) model has **7 layers** that describe how 
 | 2 | Data Link | **Frame** | Physical addressing (MAC), error detection (CRC), access to media | Ethernet, PPP, MAC; **Switches**, Bridges, NICs |
 | 1 | Physical | **Bit** | Raw bit transmission over physical medium (voltage, radio, light) | Cables (CAT5/6), fiber, Wi-Fi radio, hubs, repeaters |
 
+![OSI 7 layers with the PDU, function and devices at each layer](images/osi-layers.svg)
+
 ### Key Memory Hooks
 - **PDUs**: "Please Do Not Throw Sausage Pizza Away" → Physical=Bit, Data Link=Frame, Network=Packet, Transport=Segment/Datagram, Session/Presentation/Application=Data.
 - **Routers** work at Layer 3, **Switches** at Layer 2, **Hubs** at Layer 1.
@@ -26,6 +28,8 @@ The OSI (Open Systems Interconnection) model has **7 layers** that describe how 
 ---
 
 ## 1.2 TCP/IP
+
+![Encapsulation: how each layer wraps the data in its own header](images/encapsulation.svg)
 
 ### TCP vs UDP
 
@@ -38,6 +42,8 @@ The OSI (Open Systems Interconnection) model has **7 layers** that describe how 
 | Flow/Congestion control | Yes | No |
 | Header size | 20–60 bytes | 8 bytes |
 | Use cases | Web (HTTP/HTTPS), email (SMTP), file transfer (FTP), SSH | DNS queries, streaming, VoIP, video calls, online gaming, DHCP |
+
+![TCP vs UDP: reliability, speed and use cases side by side](images/tcp-vs-udp.svg)
 
 ### TCP Three-Way Handshake
 1. **SYN**: Client sends `SYN` (synchronize) with sequence number `x` to server.
@@ -70,6 +76,8 @@ Mnemonic for exam: "**H**ere's **T**o **N**ever **F**inding **S**anta's **D**irt
 
 ---
 
+![TCP three-way handshake: SYN, SYN-ACK, ACK](images/tcp-handshake.svg)
+
 ## 1.3 IP Addressing
 
 ### IPv4 Address Classes (classful, historical but still tested)
@@ -86,12 +94,16 @@ Mnemonic for exam: "**H**ere's **T**o **N**ever **F**inding **S**anta's **D**irt
 - **0.0.0.0** means "any address" / default route.
 - **255.255.255.255** is the limited broadcast address.
 
+![IPv4 address classes and the private ranges](images/ipv4-classes.svg)
+
 ### Subnet Masking and CIDR
 - A **subnet mask** is a 32-bit number of contiguous 1s followed by 0s separating the network and host portions.
   - Example: 255.255.255.0 → first 24 bits are network, last 8 are host.
 - **CIDR (Classless Inter-Domain Routing)** notation appends `/prefix_length`, e.g., `192.168.1.0/24`.
 - `/24` gives 2⁸−2 = **254 usable hosts** (subtract network and broadcast addresses).
 - `/30` gives 2 usable hosts (used for point-to-point links).
+
+![Subnet math: finding network, broadcast and usable host range](images/subnet-math.svg)
 
 ### Private IP Ranges (RFC 1918) — NOT routable on the public Internet
 
@@ -119,12 +131,16 @@ Mnemonic for exam: "**H**ere's **T**o **N**ever **F**inding **S**anta's **D**irt
 
 ---
 
+![NAT and PAT: many private addresses sharing one public IP](images/nat-pat.svg)
+
 ## 1.4 Protocols
 
 ### DNS (Domain Name System — UDP/53, TCP/53 for zone transfers)
 Translates human-readable domain names (e.g., `www.example.com`) into IP addresses (e.g., `93.184.216.34`).
 - **Resolver** (your ISP/device) → **Root server** → **TLD server** (.com) → **Authoritative server** (example.com) → returns IP.
 - Types of records: **A** (IPv4), **AAAA** (IPv6), **CNAME** (alias), **MX** (mail), **NS** (name server), **PTR** (reverse DNS).
+
+![DNS resolution: recursive query from client to authoritative server](images/dns-resolution.svg)
 
 ### DHCP (Dynamic Host Configuration Protocol — UDP 67/68)
 Assigns IP addresses automatically to clients. Four-step process called **DORA**:
@@ -133,9 +149,13 @@ Assigns IP addresses automatically to clients. Four-step process called **DORA**
 3. **Request** — client requests that IP.
 4. **Acknowledge** — server confirms and assigns IP, subnet mask, default gateway, DNS servers.
 
+![DHCP DORA: Discover, Offer, Request, Acknowledge](images/dhcp-dora.svg)
+
 ### ARP (Address Resolution Protocol)
 Maps a known **IP address** to its corresponding **MAC address** on the same LAN. The device broadcasts "Who has 192.168.1.5?" and the owner replies "I am, MAC aa:bb:cc:dd:ee:ff". Results are cached in the **ARP table**.
 - **RARP** (Reverse ARP) does the opposite: MAC → IP (rare today, replaced by DHCP).
+
+![ARP: resolving an IP address to a MAC address](images/arp-resolution.svg)
 
 ### ICMP (Internet Control Message Protocol)
 Used for error reporting and diagnostics. **Ping** sends ICMP Echo Request; recipient replies with ICMP Echo Reply. **Traceroute** (or `tracert`) uses ICMP TTL-exceeded messages to discover the path/hops to a destination.
@@ -164,6 +184,8 @@ Both HTTP and HTTPS are **stateless** — each request is independent; cookies/s
 | **Switch** | 2 (Data Link) | Forwards frames based on MAC address using a MAC table | 1 collision domain **per port**, 1 broadcast domain |
 | **Router** | 3 (Network) | Forwards packets between different networks based on IP | Separates broadcast domains; uses routing table |
 | **Firewall** | 3–7 | Filters traffic based on rules (IPs, ports, applications) | Depends on type |
+
+![Hub vs switch vs router vs firewall: layer and broadcast/collision domains](images/devices-domains.svg)
 
 ### MAC Address Table (Switch)
 The switch learns MAC-to-port mappings as frames arrive. When a frame with destination MAC unknown arrives, the switch **floods** it out all ports except the ingress port. The target host replies, the switch learns its port, and future frames are forwarded directly (unicast) instead of flooded.
@@ -258,6 +280,8 @@ MFA defeats many password-only attacks (phishing, credential stuffing, brute for
 | Used for integrity checks (passwords stored as hashes, file checksums) | Used for confidentiality |
 | Examples: MD5, SHA-1, SHA-256, SHA-3, bcrypt | Examples: AES, RSA, DES, 3DES |
 
+![Symmetric vs asymmetric encryption vs hashing](images/crypto-compare.svg)
+
 ### Common Algorithms
 - **AES** — Symmetric block cipher; key sizes 128/192/256 bits; current U.S. government standard.
 - **DES** — Old symmetric (56-bit key), broken; replaced by 3DES then AES.
@@ -280,6 +304,8 @@ TLS replaced SSL (SSL 3.0 is deprecated/insecure). Modern TLS = TLS 1.2/1.3.
 
 ---
 
+![SSL/TLS handshake: how the shared session key is agreed](images/tls-handshake.svg)
+
 ## 1.8 Cloud Computing
 
 ### Service Models
@@ -291,6 +317,8 @@ TLS replaced SSL (SSL 3.0 is deprecated/insecure). Modern TLS = TLS 1.2/1.3.
 | **SaaS** (Software) | Just the user/data | Everything else (app, runtime, OS, infra) | **Gmail, Salesforce, Microsoft 365, Netflix, Zoom** |
 
 Mnemonic: IaaS = you rent a house; PaaS = you rent an apartment (building managed); SaaS = you stay in a hotel (everything provided).
+
+![Cloud service models and who is responsible for what](images/cloud-shared-responsibility.svg)
 
 ### Deployment Models
 - **Public cloud** — shared infrastructure, owned by provider (AWS, Azure, GCP), pay-as-you-go.

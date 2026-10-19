@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="372" viewBox="0 0 800 372" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="372" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="371" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">IPv4 Address Classes &amp; Private (RFC 1918) Ranges</text>
+<rect x="30.0" y="72.0" width="90.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="75.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Class</text>
+<rect x="124.0" y="72.0" width="110.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="179.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">First octet</text>
+<rect x="238.0" y="72.0" width="110.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="293.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Leading bits</text>
+<rect x="352.0" y="72.0" width="130.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="417.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Default mask</text>
+<rect x="486.0" y="72.0" width="140.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="556.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Hosts / network</text>
+<rect x="630.0" y="72.0" width="140.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="700.0" y="89.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Private range</text>
+<rect x="30.0" y="100.0" width="90.0" height="31.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="75.0" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#4f46e5" text-anchor="middle" font-weight="bold">A</text>
+<rect x="124.0" y="100.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="132.0" y="121.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">1 – 126</text>
+<rect x="238.0" y="100.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="246.0" y="121.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0</text>
+<rect x="352.0" y="100.0" width="130.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="360.0" y="121.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">255.0.0.0  (/8)</text>
+<rect x="486.0" y="100.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="494.0" y="121.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">16,777,214</text>
+<rect x="630.0" y="100.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="638.0" y="121.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">10.0.0.0/8</text>
+<rect x="30.0" y="134.0" width="90.0" height="31.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="75.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#0d9488" text-anchor="middle" font-weight="bold">B</text>
+<rect x="124.0" y="134.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="132.0" y="155.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">128 – 191</text>
+<rect x="238.0" y="134.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="246.0" y="155.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">10</text>
+<rect x="352.0" y="134.0" width="130.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="360.0" y="155.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">255.255.0.0  (/16)</text>
+<rect x="486.0" y="134.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="494.0" y="155.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">65,534</text>
+<rect x="630.0" y="134.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="638.0" y="155.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">172.16.0.0/12</text>
+<rect x="30.0" y="168.0" width="90.0" height="31.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="75.0" y="190.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#d97706" text-anchor="middle" font-weight="bold">C</text>
+<rect x="124.0" y="168.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="132.0" y="189.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">192 – 223</text>
+<rect x="238.0" y="168.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="246.0" y="189.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">110</text>
+<rect x="352.0" y="168.0" width="130.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="360.0" y="189.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">255.255.255.0  (/24)</text>
+<rect x="486.0" y="168.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="494.0" y="189.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">254</text>
+<rect x="630.0" y="168.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="638.0" y="189.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">192.168.0.0/16</text>
+<rect x="30.0" y="202.0" width="90.0" height="31.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="75.0" y="224.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold">D</text>
+<rect x="124.0" y="202.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="132.0" y="223.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">224 – 239</text>
+<rect x="238.0" y="202.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="246.0" y="223.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">1110</text>
+<rect x="352.0" y="202.0" width="130.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="360.0" y="223.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">— multicast —</text>
+<rect x="486.0" y="202.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="494.0" y="223.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">—</text>
+<rect x="630.0" y="202.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="638.0" y="223.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">224.0.0.0/4 (multicast)</text>
+<rect x="30.0" y="236.0" width="90.0" height="31.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="75.0" y="258.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#475569" text-anchor="middle" font-weight="bold">E</text>
+<rect x="124.0" y="236.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="132.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">240 – 255</text>
+<rect x="238.0" y="236.0" width="110.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="246.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">1111</text>
+<rect x="352.0" y="236.0" width="130.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="360.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">— experimental —</text>
+<rect x="486.0" y="236.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="494.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">—</text>
+<rect x="630.0" y="236.0" width="140.0" height="31.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="638.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">—</text>
+<rect x="30.0" y="286.0" width="740.0" height="68.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="44.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#dc2626" text-anchor="start" font-weight="bold">Special-purpose addresses to memorise</text>
+<text x="44.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">127.0.0.0/8 = loopback (::1 in IPv6)   •   169.254.0.0/16 = APIPA (DHCP failed)</text>
+<text x="44.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0.0.0.0 = default route / "any"   •   255.255.255.255 = local broadcast   •   FE80::/10 = IPv6 link-local</text>
+<text x="30.0" y="356.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Trap: 172.32.x.x is NOT private — the private block is 172.16.0.0/12 (172.16 – 172.31 only).</text>
+</svg>

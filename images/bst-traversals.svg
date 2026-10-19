@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="470" viewBox="0 0 800 470" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="469" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Tree Traversals — Same Nodes, Four Different Orders</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Left subtree always comes before the right one; only the ROOT moves</text>
+<line x1="400.0" y1="152.0" x2="240.0" y2="198.0" stroke="#475569" stroke-width="1.3"/>
+<line x1="400.0" y1="152.0" x2="560.0" y2="198.0" stroke="#475569" stroke-width="1.3"/>
+<line x1="240.0" y1="242.0" x2="150.0" y2="288.0" stroke="#475569" stroke-width="1.3"/>
+<line x1="240.0" y1="242.0" x2="330.0" y2="288.0" stroke="#475569" stroke-width="1.3"/>
+<line x1="560.0" y1="242.0" x2="470.0" y2="288.0" stroke="#475569" stroke-width="1.3"/>
+<line x1="560.0" y1="242.0" x2="650.0" y2="288.0" stroke="#475569" stroke-width="1.3"/>
+<circle cx="400" cy="130" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="400.0" y="135.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">50</text>
+<circle cx="240" cy="220" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="240.0" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<circle cx="560" cy="220" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="560.0" y="225.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">70</text>
+<circle cx="150" cy="310" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="150.0" y="315.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<circle cx="330" cy="310" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="330.0" y="315.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">40</text>
+<circle cx="470" cy="310" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="470.0" y="315.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">60</text>
+<circle cx="650" cy="310" r="22" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.6"/>
+<text x="650.0" y="315.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">80</text>
+<text x="30.0" y="356.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#16a34a" text-anchor="start" font-weight="bold">In-order  (left-root-right)</text>
+<text x="330.0" y="356.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">20  30  40  50  60  70  80</text>
+<text x="560.0" y="356.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">sorted output for a BST</text>
+<text x="30.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="bold">Pre-order  (root-left-right)</text>
+<text x="330.0" y="378.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">50  30  20  40  70  60  80</text>
+<text x="560.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">copy / serialize a tree</text>
+<text x="30.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#7c3aed" text-anchor="start" font-weight="bold">Post-order  (left-right-root)</text>
+<text x="330.0" y="400.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">20  40  30  60  80  70  50</text>
+<text x="560.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">delete/free: children first</text>
+<text x="30.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#d97706" text-anchor="start" font-weight="bold">Level-order  (BFS + queue)</text>
+<text x="330.0" y="422.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">50  30  70  20  40  60  80</text>
+<text x="560.0" y="422.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">breadth-first, needs a QUEUE</text>
+<text x="30.0" y="444.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">BST property: every value in the left subtree is smaller than the node; every value in the right subtree is larger. Inserting sorted</text>
+<text x="30.0" y="459.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">data into an unbalanced BST degenerates it into a linked list (O(n) search).</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="512" viewBox="0 0 820 512" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="512" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="511" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">SQL JOINs — Venn View + What Actually Comes Back</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">A = left table (employees)   •   B = right table (departments)</text>
+<rect x="30.0" y="78.0" width="370.0" height="182.0" rx="8" fill="#fafafa" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="44.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#4f46e5" text-anchor="start" font-weight="bold">INNER JOIN</text>
+<defs><clipPath id="clip0"><circle cx="114" cy="166" r="52"/></clipPath></defs>
+<circle cx="114" cy="166" r="52" fill="#ffffff" stroke="#94a3b8"/>
+<circle cx="176" cy="166" r="52" fill="#ffffff" stroke="#94a3b8"/>
+<circle cx="176" cy="166" r="52" fill="#4f46e5" fill-opacity="0.55" stroke="#4f46e5" clip-path="url(#clip0)"/>
+<text x="92.0" y="171.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">A</text>
+<text x="198.0" y="171.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">B</text>
+<text x="242.0" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Only rows that match in</text>
+<text x="242.0" y="162.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">BOTH tables.</text>
+<text x="44.0" y="214.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">SELECT ... FROM employees e</text>
+<text x="44.0" y="228.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">INNER JOIN departments d ON e.dept_id = d.dept_id</text>
+<rect x="420.0" y="78.0" width="370.0" height="182.0" rx="8" fill="#fafafa" stroke="#0d9488" stroke-width="1.2"/>
+<text x="434.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="start" font-weight="bold">LEFT JOIN</text>
+<defs><clipPath id="clip1"><circle cx="504" cy="166" r="52"/></clipPath></defs>
+<circle cx="504" cy="166" r="52" fill="#0d9488" fill-opacity="0.55" stroke="#0d9488"/>
+<circle cx="566" cy="166" r="52" fill="#ffffff" stroke="#94a3b8"/>
+<text x="482.0" y="171.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">A</text>
+<text x="588.0" y="171.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">B</text>
+<text x="632.0" y="148.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">All of A; NULLs where B has</text>
+<text x="632.0" y="162.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">no match.</text>
+<text x="434.0" y="214.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">SELECT ... FROM employees e</text>
+<text x="434.0" y="228.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">LEFT JOIN departments d ON e.dept_id = d.dept_id</text>
+<rect x="30.0" y="274.0" width="370.0" height="182.0" rx="8" fill="#fafafa" stroke="#d97706" stroke-width="1.2"/>
+<text x="44.0" y="296.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="start" font-weight="bold">RIGHT JOIN</text>
+<defs><clipPath id="clip2"><circle cx="114" cy="362" r="52"/></clipPath></defs>
+<circle cx="114" cy="362" r="52" fill="#ffffff" stroke="#94a3b8"/>
+<circle cx="176" cy="362" r="52" fill="#d97706" fill-opacity="0.55" stroke="#d97706"/>
+<text x="92.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">A</text>
+<text x="198.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">B</text>
+<text x="242.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">All of B; NULLs where A has</text>
+<text x="242.0" y="358.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">no match.</text>
+<text x="44.0" y="410.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">SELECT ... FROM employees e</text>
+<text x="44.0" y="424.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">RIGHT JOIN departments d ON e.dept_id = d.dept_id</text>
+<rect x="420.0" y="274.0" width="370.0" height="182.0" rx="8" fill="#fafafa" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="434.0" y="296.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7c3aed" text-anchor="start" font-weight="bold">FULL OUTER JOIN</text>
+<defs><clipPath id="clip3"><circle cx="504" cy="362" r="52"/></clipPath></defs>
+<circle cx="504" cy="362" r="52" fill="#7c3aed" fill-opacity="0.55" stroke="#7c3aed"/>
+<circle cx="566" cy="362" r="52" fill="#7c3aed" fill-opacity="0.55" stroke="#7c3aed"/>
+<text x="482.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">A</text>
+<text x="588.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">B</text>
+<text x="632.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Everything from both sides;</text>
+<text x="632.0" y="358.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">NULLs fill the gaps.</text>
+<text x="434.0" y="410.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">SELECT ... FROM employees e</text>
+<text x="434.0" y="424.0" font-family="Courier New, Courier, monospace" font-size="8.4" fill="#111827" text-anchor="start" font-weight="normal">FULL OUTER JOIN departments d ON e.dept_id = d.dept_id</text>
+<rect x="30.0" y="466.0" width="760.0" height="34.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="46.0" y="486.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#dc2626" text-anchor="start" font-weight="bold">Trap: LEFT JOIN + WHERE on the RIGHT table = INNER JOIN.  LEFT JOIN + WHERE right.key IS NULL = anti-join.</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="399" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Kadane's Algorithm — Maximum Subarray Sum, Step by Step</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">At each element: extend the old subarray, or start a new one here</text>
+<text x="30.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">index</text>
+<rect x="110.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
+<text x="139.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">-2</text>
+<text x="139.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">0</text>
+<rect x="172.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
+<text x="201.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<text x="201.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">1</text>
+<rect x="234.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
+<text x="263.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">-3</text>
+<text x="263.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">2</text>
+<rect x="296.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<text x="325.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<text x="325.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">3</text>
+<rect x="358.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<text x="387.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">-1</text>
+<text x="387.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">4</text>
+<rect x="420.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<text x="449.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">2</text>
+<text x="449.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">5</text>
+<rect x="482.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.3"/>
+<text x="511.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<text x="511.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">6</text>
+<rect x="544.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
+<text x="573.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">-5</text>
+<text x="573.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">7</text>
+<rect x="606.0" y="70.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.3"/>
+<text x="635.0" y="92.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<text x="635.0" y="64.0" font-family="Courier New, Courier, monospace" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">8</text>
+<text x="30.0" y="144.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="bold">max_ending_here</text>
+<rect x="110.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1"/>
+<text x="139.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">-2</text>
+<rect x="172.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1"/>
+<text x="201.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<rect x="234.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1"/>
+<text x="263.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">-2</text>
+<rect x="296.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1"/>
+<text x="325.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<rect x="358.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1"/>
+<text x="387.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">3</text>
+<rect x="420.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1"/>
+<text x="449.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<rect x="482.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1"/>
+<text x="511.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">6</text>
+<rect x="544.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1"/>
+<text x="573.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<rect x="606.0" y="120.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1"/>
+<text x="635.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<text x="30.0" y="186.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="bold">max_so_far</text>
+<rect x="110.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1"/>
+<text x="139.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">-2</text>
+<rect x="172.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1"/>
+<text x="201.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<rect x="234.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1"/>
+<text x="263.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">1</text>
+<rect x="296.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1"/>
+<text x="325.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<rect x="358.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1"/>
+<text x="387.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">4</text>
+<rect x="420.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1"/>
+<text x="449.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">5</text>
+<rect x="482.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1"/>
+<text x="511.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">6</text>
+<rect x="544.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1"/>
+<text x="573.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">6</text>
+<rect x="606.0" y="162.0" width="58.0" height="34.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1"/>
+<text x="635.0" y="184.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">6</text>
+<text x="110.0" y="214.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">max_ending_here = max(a[i], max_ending_here + a[i])</text>
+<text x="110.0" y="232.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">max_so_far = max(max_so_far, max_ending_here)</text>
+<rect x="30.0" y="250.0" width="740.0" height="122.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="46.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Why it works</text>
+<text x="46.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Any maximum subarray ending at i either (a) is just a[i], or (b) is the best subarray ending at i-1 plus a[i]. Keeping both</text>
+<text x="46.0" y="307.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">running values gives the answer in ONE pass: O(n) time, O(1) space.</text>
+<text x="46.0" y="332.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Here the best window is indices 3..6 → 4 + (−1) + 2 + 1 = 6. With all-negative input, the answer is the single largest</text>
+<text x="46.0" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">element — never 0 unless you decide an empty subarray is allowed.</text>
+</svg>

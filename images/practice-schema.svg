@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="470" viewBox="0 0 820 470" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="819" height="469" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Chapter 12 Practice Schema — Four Tables, Three Relationships</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Every SQL question in chapter 12 uses this schema</text>
+<rect x="30.0" y="86.0" width="250.0" height="98.0" rx="7" fill="#0d948812" stroke="#0d9488" stroke-width="1.4"/>
+<rect x="30.0" y="86.0" width="250.0" height="26.0" rx="7" fill="#0d9488" stroke="#0d9488" stroke-width="1.2"/>
+<text x="155.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="bold">departments</text>
+<text x="40.0" y="129.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">dept_id</text>
+<rect x="210.0" y="115.0" width="56.0" height="18.0" rx="4" fill="#0d94882a" stroke="#0d9488" stroke-width="1"/>
+<text x="238.0" y="127.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#0d9488" text-anchor="middle" font-weight="normal">PK</text>
+<text x="40.0" y="153.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">dept_name</text>
+<text x="40.0" y="177.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">location</text>
+<rect x="30.0" y="236.0" width="250.0" height="170.0" rx="7" fill="#4f46e512" stroke="#4f46e5" stroke-width="1.4"/>
+<rect x="30.0" y="236.0" width="250.0" height="26.0" rx="7" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="155.0" y="254.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="bold">employees</text>
+<text x="40.0" y="279.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">emp_id</text>
+<rect x="210.0" y="265.0" width="56.0" height="18.0" rx="4" fill="#4f46e52a" stroke="#4f46e5" stroke-width="1"/>
+<text x="238.0" y="277.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#4f46e5" text-anchor="middle" font-weight="normal">PK</text>
+<text x="40.0" y="303.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">name</text>
+<text x="40.0" y="327.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">dept_id</text>
+<rect x="210.0" y="313.0" width="56.0" height="18.0" rx="4" fill="#4f46e52a" stroke="#4f46e5" stroke-width="1"/>
+<text x="238.0" y="325.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#4f46e5" text-anchor="middle" font-weight="normal">FK</text>
+<text x="40.0" y="351.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">salary</text>
+<text x="40.0" y="375.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">hire_date</text>
+<text x="40.0" y="399.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">manager_id</text>
+<rect x="210.0" y="385.0" width="56.0" height="18.0" rx="4" fill="#4f46e52a" stroke="#4f46e5" stroke-width="1"/>
+<text x="238.0" y="397.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#4f46e5" text-anchor="middle" font-weight="normal">FK</text>
+<rect x="470.0" y="86.0" width="250.0" height="122.0" rx="7" fill="#d9770612" stroke="#d97706" stroke-width="1.4"/>
+<rect x="470.0" y="86.0" width="250.0" height="26.0" rx="7" fill="#d97706" stroke="#d97706" stroke-width="1.2"/>
+<text x="595.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="bold">projects</text>
+<text x="480.0" y="129.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">project_id</text>
+<rect x="650.0" y="115.0" width="56.0" height="18.0" rx="4" fill="#d977062a" stroke="#d97706" stroke-width="1"/>
+<text x="678.0" y="127.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#d97706" text-anchor="middle" font-weight="normal">PK</text>
+<text x="480.0" y="153.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">project_name</text>
+<text x="480.0" y="177.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">dept_id</text>
+<rect x="650.0" y="163.0" width="56.0" height="18.0" rx="4" fill="#d977062a" stroke="#d97706" stroke-width="1"/>
+<text x="678.0" y="175.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#d97706" text-anchor="middle" font-weight="normal">FK</text>
+<text x="480.0" y="201.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">budget</text>
+<rect x="470.0" y="236.0" width="250.0" height="98.0" rx="7" fill="#7c3aed12" stroke="#7c3aed" stroke-width="1.4"/>
+<rect x="470.0" y="236.0" width="250.0" height="26.0" rx="7" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="595.0" y="254.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="bold">employee_projects</text>
+<text x="480.0" y="279.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">emp_id</text>
+<rect x="650.0" y="265.0" width="56.0" height="18.0" rx="4" fill="#7c3aed2a" stroke="#7c3aed" stroke-width="1"/>
+<text x="678.0" y="277.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7c3aed" text-anchor="middle" font-weight="normal">FK</text>
+<text x="480.0" y="303.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">project_id</text>
+<rect x="650.0" y="289.0" width="56.0" height="18.0" rx="4" fill="#7c3aed2a" stroke="#7c3aed" stroke-width="1"/>
+<text x="678.0" y="301.2" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#7c3aed" text-anchor="middle" font-weight="normal">FK</text>
+<text x="480.0" y="327.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">hours_worked</text>
+<line x1="280.0" y1="140.0" x2="280.0" y2="140.0" stroke="#0d9488" stroke-width="1.5"/>
+<line x1="280.0" y1="140.0" x2="280.0" y2="280.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 280.0,280.0 L 276.0,273.1 L 284.0,273.1 Z" fill="#0d9488"/>
+<text x="300.0" y="214.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="bold">dept_id  1 : N</text>
+<line x1="470.0" y1="130.0" x2="280.0" y2="130.0" stroke="#d97706" stroke-width="1.5"/>
+<path d="M 280.0,130.0 L 286.9,126.0 L 286.9,134.0 Z" fill="#d97706"/>
+<text x="375.0" y="122.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">dept_id</text>
+<line x1="470.0" y1="260.0" x2="280.0" y2="260.0" stroke="#7c3aed" stroke-width="1.5"/>
+<path d="M 280.0,260.0 L 286.9,256.0 L 286.9,264.0 Z" fill="#7c3aed"/>
+<text x="375.0" y="252.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">emp_id</text>
+<line x1="595.0" y1="236.0" x2="595.0" y2="208.0" stroke="#d97706" stroke-width="1.5"/>
+<path d="M 595.0,208.0 L 599.0,214.9 L 591.0,214.9 Z" fill="#d97706"/>
+<text x="602.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#d97706" text-anchor="start" font-weight="bold">project_id</text>
+<rect x="30.0" y="400.0" width="760.0" height="56.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="46.0" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#dc2626" text-anchor="start" font-weight="bold">Two traps in this data</text>
+<text x="46.0" y="438.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Frank (emp 6) has dept_id = NULL, and Marketing (dept 40) has no employees — so INNER JOIN loses both while LEFT/RIGHT JOIN keep them.</text>
+</svg>

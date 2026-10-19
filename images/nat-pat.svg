@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="770" height="404" viewBox="0 0 770 404" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="770" height="404" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="769" height="403" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">NAT / PAT — How One Public IP Serves a Whole LAN</text>
+<rect x="36.0" y="80.0" width="130.0" height="40.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="101.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">PC-A</text>
+<text x="101.0" y="113.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">192.168.1.10:3001</text>
+<line x1="166.0" y1="100.0" x2="300.0" y2="112.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 300.0,112.0 L 293.6,114.9 L 294.3,108.0 Z" fill="#4f46e5"/>
+<rect x="186.0" y="80.0" width="130.0" height="40.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="251.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">PC-B</text>
+<text x="251.0" y="113.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">192.168.1.11:3002</text>
+<line x1="316.0" y1="100.0" x2="300.0" y2="112.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 300.0,112.0 L 302.7,105.6 L 306.9,111.2 Z" fill="#4f46e5"/>
+<rect x="336.0" y="80.0" width="130.0" height="40.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="401.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">PC-C</text>
+<text x="401.0" y="113.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">192.168.1.12:3003</text>
+<line x1="466.0" y1="100.0" x2="300.0" y2="112.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 300.0,112.0 L 305.8,108.1 L 306.3,115.1 Z" fill="#4f46e5"/>
+<rect x="300.0" y="78.0" width="170.0" height="46.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="385.0" y="105.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="normal">Switch</text>
+<rect x="300.0" y="150.0" width="170.0" height="44.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="385.0" y="176.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">NAT Router</text>
+<text x="385.0" y="212.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#0d9488" text-anchor="middle" font-weight="normal">public IP 203.0.113.5</text>
+<line x1="470.0" y1="172.0" x2="620.0" y2="172.0" stroke="#0d9488" stroke-width="1.6"/>
+<path d="M 620.0,172.0 L 613.1,176.0 L 613.1,168.0 Z" fill="#0d9488"/>
+<text x="545.0" y="176.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">translated packets</text>
+<rect x="620.0" y="150.0" width="120.0" height="44.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="680.0" y="176.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">Internet</text>
+<text x="30.0" y="244.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">PAT translation table inside the router</text>
+<rect x="30.0" y="258.0" width="200.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="130.0" y="274.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Inside (private)</text>
+<rect x="240.0" y="258.0" width="210.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="345.0" y="274.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Outside (public)</text>
+<rect x="460.0" y="258.0" width="260.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="590.0" y="274.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Remote server</text>
+<rect x="30.0" y="284.0" width="200.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="299.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">192.168.1.10:3001</text>
+<rect x="240.0" y="284.0" width="210.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="248.0" y="299.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">203.0.113.5:40001</text>
+<rect x="460.0" y="284.0" width="260.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="468.0" y="299.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">93.184.216.34:80</text>
+<rect x="30.0" y="308.0" width="200.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="323.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">192.168.1.11:3002</text>
+<rect x="240.0" y="308.0" width="210.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="248.0" y="323.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">203.0.113.5:40002</text>
+<rect x="460.0" y="308.0" width="260.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="468.0" y="323.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">93.184.216.34:80</text>
+<rect x="30.0" y="332.0" width="200.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="347.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">192.168.1.12:3003</text>
+<rect x="240.0" y="332.0" width="210.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="248.0" y="347.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">203.0.113.5:40003</text>
+<rect x="460.0" y="332.0" width="260.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="468.0" y="347.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">93.184.216.34:443</text>
+<text x="30.0" y="370.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">NAT hides internal hosts (they are not reachable from outside until they speak first) and delays IPv4 exhaustion — it is not a</text>
+<text x="30.0" y="385.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">firewall, but it behaves like one.</text>
+</svg>

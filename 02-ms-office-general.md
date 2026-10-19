@@ -75,6 +75,8 @@ Used to create a batch of personalized documents (letters, envelopes, labels, em
 - **Mixed** (e.g., `$A1` or `A$1`) — locks either the column or the row.
 - Toggle reference types with **F4** while editing a formula.
 
+![Relative vs absolute vs mixed cell references and what happens on copy](images/excel-references.svg)
+
 ### Basic Formulas
 
 | Formula | Purpose | Example |
@@ -97,6 +99,8 @@ Used to create a batch of personalized documents (letters, envelopes, labels, em
   - `INDEX(range, row_num, col_num)` returns value at given position.
   - `MATCH(value, range, 0)` returns position of value (0 = exact match).
   - Combined: `=INDEX(C2:C100, MATCH(101, A2:A100, 0))` — looks left or right, more robust when columns are inserted.
+
+![Anatomy of VLOOKUP and the traps that break it](images/vlookup-anatomy.svg)
 
 ### Logical Functions
 - `=IF(condition, value_if_true, value_if_false)` — decision making.
@@ -160,6 +164,8 @@ Used to create a batch of personalized documents (letters, envelopes, labels, em
 - **Slide Master** (View tab → Slide Master) is the top-level template that controls the theme, fonts, colors, logos, and default layouts for **all slides** in the deck.
 - Edit the Slide Master once to add a logo, change default font, or insert a footer across every slide instead of editing slides individually.
 - Changes to the master propagate to layouts and slides based on it.
+
+![Slide master, layouts and placeholders in PowerPoint](images/ppt-master.svg)
 
 ### Transitions vs Animations
 - **Transitions** = visual effects when moving **between slides** (e.g., Fade, Push, Wipe, Morph). Controlled on the Transitions tab; applied per slide.

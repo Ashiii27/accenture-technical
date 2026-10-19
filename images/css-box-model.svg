@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="470" viewBox="0 0 800 470" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="469" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">The CSS Box Model — Four Layers and the Width Maths</text>
+<rect x="40.0" y="84.0" width="700.0" height="250.0" rx="4" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+<text x="48.0" y="102.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="bold">MARGIN</text>
+<text x="48.0" y="325.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#475569" text-anchor="start" font-weight="normal">transparent space OUTSIDE the border — margin does NOT count in the width</text>
+<rect x="90.0" y="124.0" width="600.0" height="170.0" rx="4" fill="#fde68a" stroke="#d97706" stroke-width="1.4"/>
+<text x="98.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="bold">BORDER</text>
+<text x="98.0" y="285.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#475569" text-anchor="start" font-weight="normal">border: 5px solid  →  adds 2 × 5 = 10px</text>
+<rect x="140.0" y="160.0" width="500.0" height="98.0" rx="4" fill="#bfdbfe" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="148.0" y="178.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#4f46e5" text-anchor="start" font-weight="bold">PADDING</text>
+<text x="148.0" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#475569" text-anchor="start" font-weight="normal">padding: 20px  →  adds 2 × 20 = 40px, inside the border</text>
+<rect x="230.0" y="194.0" width="320.0" height="44.0" rx="4" fill="#93c5fd" stroke="#4f46e5" stroke-width="1.4"/>
+<text x="238.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#4f46e5" text-anchor="start" font-weight="bold">CONTENT</text>
+<text x="238.0" y="229.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#475569" text-anchor="start" font-weight="normal">the text / image itself</text>
+<rect x="30.0" y="352.0" width="380.0" height="90.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="46.0" y="374.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#dc2626" text-anchor="start" font-weight="bold">box-sizing: content-box  (DEFAULT)</text>
+<text x="46.0" y="394.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">total width = 200 + 40 + 10 = 250px</text>
+<text x="46.0" y="412.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">the declared width is only the CONTENT</text>
+<rect x="430.0" y="352.0" width="340.0" height="90.0" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="446.0" y="374.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#16a34a" text-anchor="start" font-weight="bold">box-sizing: border-box</text>
+<text x="446.0" y="394.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">content = 200 − 40 − 10 = 150px</text>
+<text x="446.0" y="412.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">width INCLUDES padding + border</text>
+<text x="30.0" y="452.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Centering: margin: 0 auto; + a fixed width centers a block element horizontally; flexbox (justify-content / align-items) centers both ways.</text>
+<text x="30.0" y="466.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">text-align: center only centers inline content.</text>
+</svg>

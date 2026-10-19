@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="430" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="429" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">ER Diagrams — Entities, Attributes, Relationships &amp; Cardinality</text>
+<rect x="30.0" y="80.0" width="180.0" height="26.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="120.0" y="96.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">Entity</text>
+<rect x="230.0" y="80.0" width="180.0" height="26.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="320.0" y="96.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">Relationship</text>
+<text x="430.0" y="97.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">◯  attribute   ◇  relationship   ▭  entity</text>
+<rect x="60.0" y="150.0" width="160.0" height="46.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="140.0" y="177.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">EMPLOYEE</text>
+<rect x="420.0" y="150.0" width="160.0" height="46.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="500.0" y="177.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">DEPARTMENT</text>
+<polygon points="260,160 300,173 260,186 220,173" fill="#fffbeb" stroke="#d97706" stroke-width="1.4"/>
+<text x="260.0" y="177.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">works for</text>
+<line x1="220.0" y1="173.0" x2="220.0" y2="173.0" stroke="#475569" stroke-width="1.4"/>
+<line x1="220.0" y1="173.0" x2="220.0" y2="173.0" stroke="#475569" stroke-width="1.4"/>
+<line x1="220.0" y1="173.0" x2="220.0" y2="173.0" stroke="#475569" stroke-width="1.4"/>
+<path d="M 220.0,173.0 L 220.0,173.0 L 220.0,173.0 Z" fill="#475569"/>
+<line x1="220.0" y1="173.0" x2="240.0" y2="173.0" stroke="#475569" stroke-width="1.4"/>
+<line x1="300.0" y1="173.0" x2="420.0" y2="173.0" stroke="#475569" stroke-width="1.4"/>
+<text x="236.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="bold">N</text>
+<text x="396.0" y="166.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="bold">1</text>
+<ellipse cx="100" cy="220" rx="28" ry="18" fill="#ffffff" stroke="#7c3aed" stroke-width="1.6" stroke-dasharray="4 3"/>
+<text x="100.0" y="224.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">emp_id</text>
+<line x1="100.0" y1="202.0" x2="140.0" y2="196.0" stroke="#94a3b8" stroke-width="1"/>
+<ellipse cx="170" cy="220" rx="28" ry="18" fill="#ffffff" stroke="#94a3b8" stroke-width="1.0"/>
+<text x="170.0" y="224.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">name</text>
+<line x1="170.0" y1="202.0" x2="140.0" y2="196.0" stroke="#94a3b8" stroke-width="1"/>
+<ellipse cx="240" cy="220" rx="28" ry="18" fill="#ffffff" stroke="#94a3b8" stroke-width="1.0"/>
+<text x="240.0" y="224.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">salary</text>
+<line x1="240.0" y1="202.0" x2="140.0" y2="196.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="70.0" y="262.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">dashed/underlined ellipse = key attribute</text>
+<text x="30.0" y="292.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Cardinality ratios</text>
+<rect x="30.0" y="304.0" width="240.0" height="70.0" rx="6" fill="#4f46e512" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">1 : 1</text>
+<text x="44.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">one employee ↔ one company car</text>
+<text x="44.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">FK sits on the "many" side</text>
+<rect x="280.0" y="304.0" width="240.0" height="70.0" rx="6" fill="#0d948812" stroke="#0d9488" stroke-width="1.2"/>
+<text x="400.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle" font-weight="bold">1 : N</text>
+<text x="294.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">one department ↔ many employees</text>
+<text x="294.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">FK sits on the "many" side</text>
+<rect x="530.0" y="304.0" width="240.0" height="70.0" rx="6" fill="#d9770612" stroke="#d97706" stroke-width="1.2"/>
+<text x="650.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">M : N</text>
+<text x="544.0" y="346.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">many employees ↔ many projects</text>
+<text x="544.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">M:N needs a junction table in SQL</text>
+</svg>

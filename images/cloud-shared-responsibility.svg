@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="500" viewBox="0 0 780 500" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="780" height="500" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="779" height="499" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Cloud Shared Responsibility — Who Manages What?</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Blue = you (customer)    Teal = cloud provider    Grey = shared</text>
+<rect x="30.0" y="88.0" width="210.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="135.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">Layer</text>
+<rect x="250.0" y="88.0" width="130.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="315.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">On-premises</text>
+<rect x="390.0" y="88.0" width="130.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="455.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">IaaS</text>
+<rect x="530.0" y="88.0" width="130.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="595.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">PaaS</text>
+<rect x="670.0" y="88.0" width="90.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="715.0" y="107.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">SaaS</text>
+<rect x="30.0" y="118.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Applications</text>
+<rect x="250.0" y="118.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="118.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="398.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="530.0" y="118.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="137.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="148.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Data &amp; access control</text>
+<rect x="250.0" y="148.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="148.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="398.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="530.0" y="148.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER (hosts it)</text>
+<rect x="30.0" y="178.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="197.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Runtime</text>
+<rect x="250.0" y="178.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="197.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="178.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="398.0" y="197.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="530.0" y="178.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="197.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="208.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Middleware</text>
+<rect x="250.0" y="208.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="208.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="398.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="530.0" y="208.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="238.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Operating system</text>
+<rect x="250.0" y="238.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="238.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="398.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="530.0" y="238.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="268.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="287.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Virtualization</text>
+<rect x="250.0" y="268.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="287.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="268.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="287.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="530.0" y="268.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="287.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="298.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Servers</text>
+<rect x="250.0" y="298.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="298.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="530.0" y="298.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="328.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Storage</text>
+<rect x="250.0" y="328.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="328.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="530.0" y="328.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="358.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="40.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Networking</text>
+<rect x="250.0" y="358.0" width="130.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="258.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="normal">YOU</text>
+<rect x="390.0" y="358.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="530.0" y="358.0" width="130.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="538.0" y="377.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="normal">PROVIDER</text>
+<rect x="30.0" y="404.0" width="730.0" height="76.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="46.0" y="426.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#d97706" text-anchor="start" font-weight="bold">Exam lines to remember</text>
+<text x="46.0" y="444.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">IaaS = VMs / networks / storage (EC2, Azure VM) — YOU patch the guest OS. PaaS = runtime + middleware managed (App Service,</text>
+<text x="46.0" y="459.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">RDS) — you deploy code only.</text>
+<text x="46.0" y="476.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">SaaS = ready-to-use software (Gmail, Salesforce). Serverless/FaaS = pay per execution. Never shared: your DATA and who may access</text>
+<text x="46.0" y="490.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">it.</text>
+</svg>

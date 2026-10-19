@@ -24,6 +24,8 @@ Big-O describes an algorithm's **worst-case growth rate** as input size n grows.
 
 ---
 
+![How fast each complexity class grows as n increases](images/big-o-growth.svg)
+
 ## 4.2 Arrays
 
 - **Contiguous** block of memory holding elements of the same type.
@@ -44,6 +46,8 @@ Big-O describes an algorithm's **worst-case growth rate** as input size n grows.
 ---
 
 ## 4.3 Linked Lists
+
+![Array vs linked list: contiguous memory vs chained nodes](images/array-vs-linked-list.svg)
 
 ### Singly Linked List (SLL)
 - Each node has **data** + **next pointer** pointing to the next node.
@@ -83,6 +87,8 @@ else
 | Memory | Contiguous, no overhead | Per-node next ptr | Per-node next+prev ptr |
 
 ---
+
+![Singly, doubly and circular linked lists](images/linked-list-types.svg)
 
 ## 4.4 Stack
 
@@ -135,6 +141,8 @@ else
 
 ---
 
+![Stack (LIFO) vs queue (FIFO): where items enter and leave](images/stack-queue.svg)
+
 ## 4.6 Binary Search
 
 **Prerequisites:** the array **must be sorted**.
@@ -163,6 +171,8 @@ return -1   // not found
 
 ---
 
+![Binary search: how low, mid and high move on a sorted array](images/binary-search.svg)
+
 ## 4.7 Sorting Algorithms
 
 | Algorithm | Best | Average | Worst | Space | Stable? | In-place? | Notes |
@@ -183,6 +193,8 @@ return -1   // not found
 - Quick Sort worst case is O(n²); Merge Sort needs O(n) extra space.
 
 ---
+
+![Sorting algorithms: complexity, stability and when to use each](images/sorting-cheatsheet.svg)
 
 ## 4.8 Tree Terminology & BST
 
@@ -217,6 +229,8 @@ Key terms:
 - **Level-order (BFS):** top-down, left-to-right row by row (uses a queue).
 
 ---
+
+![BST traversals: in-order, pre-order, post-order and level-order](images/bst-traversals.svg)
 
 # Practice Questions — DSA MCQs
 

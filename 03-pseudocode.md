@@ -93,6 +93,8 @@ Output: `3`.
 
 ---
 
+![Flowchart shapes of FOR, WHILE and REPEAT-UNTIL loops](images/loop-flowcharts.svg)
+
 ## 3.4 Nested Loops
 
 For each iteration of the **outer** loop, the **inner** loop runs completely.
@@ -118,6 +120,8 @@ Total iterations = outer × inner = 3 × 2 = **6**.
 **Pattern recognition:** Many print-pattern questions use nested loops: outer loop = rows, inner loop = columns.
 
 ---
+
+![Nested loops: the grid of (i, j) pairs the body actually runs for](images/nested-loop-grid.svg)
 
 ## 3.5 Functions, Parameters, and Return Values
 
@@ -165,6 +169,8 @@ fact(4) = 4 * fact(3)
        = 4 * (3 * (2 * 1))
        = 24
 ```
+
+![Recursion: the call stack going down and the unwinding coming back](images/recursion-tree.svg)
 
 ### Fibonacci: F(0)=0, F(1)=1, F(n)=F(n−1)+F(n−2)
 ```
@@ -287,6 +293,8 @@ PRINT nums    // prints [2,3,4]
 
 ---
 
+![Pass by value vs pass by reference: what the memory actually does](images/pass-by-value-reference.svg)
+
 ## 3.11 Basic Sorting — Bubble Sort Trace
 
 Bubble Sort repeatedly swaps adjacent out-of-order elements, bubbling the largest to the end each pass.
@@ -321,6 +329,8 @@ Pass-by-pass trace on `[5,2,8,1]`:
 Final: `[1,2,5,8]`.
 
 ---
+
+![Bubble sort: one full pass with the swaps counted](images/bubble-sort-pass.svg)
 
 # Practice Questions — Pseudocode
 

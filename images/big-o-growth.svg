@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="430" viewBox="0 0 920 430" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="430" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="919" height="429" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Big-O — How Fast the Work Grows With n</text>
+<line x1="70.0" y1="70.0" x2="70.0" y2="350.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="70.0" y1="350.0" x2="480.0" y2="350.0" stroke="#475569" stroke-width="1.2"/>
+<text x="484.0" y="354.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">n</text>
+<text x="20.0" y="76.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">ops</text>
+<polyline points="70.0,348.9 120.0,348.9 170.0,348.9 220.0,348.9 270.0,348.9 320.0,348.9 370.0,348.9 420.0,348.9 470.0,348.9" fill="none" stroke="#16a34a" stroke-width="2.2"/>
+<polyline points="70.0,350.0 120.0,348.9 170.0,347.9 220.0,347.3 270.0,346.8 320.0,346.5 370.0,346.2 420.0,346.0 470.0,345.8" fill="none" stroke="#0d9488" stroke-width="2.2"/>
+<polyline points="70.0,348.9 120.0,347.9 170.0,345.8 220.0,343.7 270.0,341.6 320.0,339.5 370.0,337.3 420.0,335.2 470.0,333.1" fill="none" stroke="#4f46e5" stroke-width="2.2"/>
+<polyline points="70.0,350.0 120.0,347.9 170.0,341.6 220.0,333.6 270.0,324.7 320.0,315.0 370.0,304.6 420.0,293.8 470.0,282.5" fill="none" stroke="#7c3aed" stroke-width="2.2"/>
+<polyline points="70.0,348.9 120.0,345.8 170.0,333.1 220.0,312.0 270.0,282.5 320.0,244.5 370.0,198.1 420.0,143.3 470.0,80.0" fill="none" stroke="#dc2626" stroke-width="2.2"/>
+<rect x="90.0" y="88.0" width="152.0" height="108.0" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<line x1="100.0" y1="104.0" x2="130.0" y2="104.0" stroke="#16a34a" stroke-width="2.4"/>
+<text x="138.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#16a34a" text-anchor="start" font-weight="bold">O(1)</text>
+<line x1="100.0" y1="123.0" x2="130.0" y2="123.0" stroke="#0d9488" stroke-width="2.4"/>
+<text x="138.0" y="127.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#0d9488" text-anchor="start" font-weight="bold">O(log n)</text>
+<line x1="100.0" y1="142.0" x2="130.0" y2="142.0" stroke="#4f46e5" stroke-width="2.4"/>
+<text x="138.0" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#4f46e5" text-anchor="start" font-weight="bold">O(n)</text>
+<line x1="100.0" y1="161.0" x2="130.0" y2="161.0" stroke="#7c3aed" stroke-width="2.4"/>
+<text x="138.0" y="165.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#7c3aed" text-anchor="start" font-weight="bold">O(n log n)</text>
+<line x1="100.0" y1="180.0" x2="130.0" y2="180.0" stroke="#dc2626" stroke-width="2.4"/>
+<text x="138.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#dc2626" text-anchor="start" font-weight="bold">O(n²)</text>
+<text x="66.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">1</text>
+<text x="116.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">2</text>
+<text x="166.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">4</text>
+<text x="216.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">6</text>
+<text x="266.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">8</text>
+<text x="316.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">10</text>
+<text x="366.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">12</text>
+<text x="416.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">14</text>
+<text x="466.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">16</text>
+<text x="520.0" y="88.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">What it means in practice</text>
+<rect x="520.0" y="98.0" width="110.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="575.0" y="114.4" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">Complexity</text>
+<rect x="634.0" y="98.0" width="80.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="674.0" y="114.4" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">n = 100</text>
+<rect x="718.0" y="98.0" width="190.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="813.0" y="114.4" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">Typical example</text>
+<rect x="520.0" y="124.0" width="96.0" height="28.0" rx="7" fill="#16a34a1f" stroke="#16a34a" stroke-width="1.2"/>
+<text x="528.0" y="143.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(1)</text>
+<rect x="634.0" y="124.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="143.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">1</text>
+<rect x="718.0" y="124.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="143.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">array[i], hash lookup</text>
+<rect x="520.0" y="154.0" width="96.0" height="28.0" rx="7" fill="#0d94881f" stroke="#0d9488" stroke-width="1.2"/>
+<text x="528.0" y="173.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(log n)</text>
+<rect x="634.0" y="154.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="173.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">7</text>
+<rect x="718.0" y="154.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="173.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">binary search</text>
+<rect x="520.0" y="184.0" width="96.0" height="28.0" rx="7" fill="#4f46e51f" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="528.0" y="203.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(n)</text>
+<rect x="634.0" y="184.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="203.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">100</text>
+<rect x="718.0" y="184.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="203.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">linear scan</text>
+<rect x="520.0" y="214.0" width="96.0" height="28.0" rx="7" fill="#7c3aed1f" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="528.0" y="233.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(n log n)</text>
+<rect x="634.0" y="214.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="233.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">700</text>
+<rect x="718.0" y="214.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="233.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">merge sort, heap sort</text>
+<rect x="520.0" y="244.0" width="96.0" height="28.0" rx="7" fill="#dc26261f" stroke="#dc2626" stroke-width="1.2"/>
+<text x="528.0" y="263.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(n²)</text>
+<rect x="634.0" y="244.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="263.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">10,000</text>
+<rect x="718.0" y="244.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="263.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">bubble, selection sort</text>
+<rect x="520.0" y="274.0" width="96.0" height="28.0" rx="7" fill="#4755691f" stroke="#475569" stroke-width="1.2"/>
+<text x="528.0" y="293.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">O(2ⁿ)</text>
+<rect x="634.0" y="274.0" width="80.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="640.0" y="293.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">1.2e30</text>
+<rect x="718.0" y="274.0" width="190.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="724.0" y="293.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">brute-force subsets</text>
+<text x="520.0" y="330.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Rules: drop constants (3n → O(n)), keep the dominant term (n² + n →</text>
+<text x="520.0" y="345.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">O(n²)), and different inputs get different letters (O(a + b)).</text>
+<text x="30.0" y="408.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Exam favourite: a loop that halves the problem each pass is O(log n); nested loops over the same data are O(n²); a loop whose inner work halves each pass</text>
+<text x="30.0" y="423.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">is O(n), not O(n log n).</text>
+</svg>

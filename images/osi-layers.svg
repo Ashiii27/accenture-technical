@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="512" viewBox="0 0 780 512" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="780" height="512" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="779" height="511" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">OSI Model — 7 Layers, PDUs, Protocols &amp; Devices</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Mnemonic (top→bottom): All People Seem To Need Data Processing</text>
+<text x="34.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">#</text>
+<text x="82.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Layer</text>
+<text x="262.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">PDU</text>
+<text x="420.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Example protocols</text>
+<text x="676.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Device</text>
+<line x1="30.0" y1="84.0" x2="750.0" y2="84.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="30.0" y="90.0" width="720.0" height="46.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1"/>
+<rect x="34.0" y="96.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="54.0" y="117.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">7</text>
+<text x="82.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Application</text>
+<text x="82.0" y="126.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Data</text>
+<text x="262.0" y="117.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Data</text>
+<text x="420.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">HTTP, HTTPS, FTP, SMTP, DNS, DHCP</text>
+<text x="676.0" y="117.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">—</text>
+<rect x="30.0" y="140.0" width="720.0" height="46.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1"/>
+<rect x="34.0" y="146.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="54.0" y="167.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">6</text>
+<text x="82.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Presentation</text>
+<text x="82.0" y="176.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Data</text>
+<text x="262.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Data</text>
+<text x="420.0" y="160.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">TLS/SSL, JPEG, ASCII, encryption</text>
+<text x="676.0" y="167.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">—</text>
+<rect x="30.0" y="190.0" width="720.0" height="46.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1"/>
+<rect x="34.0" y="196.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="54.0" y="217.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#7c3aed" text-anchor="middle" font-weight="bold">5</text>
+<text x="82.0" y="210.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Session</text>
+<text x="82.0" y="226.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Data</text>
+<text x="262.0" y="217.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Data</text>
+<text x="420.0" y="210.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">NetBIOS, RPC, SIP, sockets</text>
+<text x="676.0" y="217.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">—</text>
+<rect x="30.0" y="240.0" width="720.0" height="46.0" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<rect x="34.0" y="246.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="54.0" y="267.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4f46e5" text-anchor="middle" font-weight="bold">4</text>
+<text x="82.0" y="260.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Transport</text>
+<text x="82.0" y="276.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Segment / Datagram</text>
+<text x="262.0" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Segment</text>
+<text x="420.0" y="260.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">TCP, UDP, port numbers</text>
+<text x="676.0" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">—</text>
+<rect x="30.0" y="290.0" width="720.0" height="46.0" rx="6" fill="#ecfdf5" stroke="#0d9488" stroke-width="1"/>
+<rect x="34.0" y="296.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="54.0" y="317.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#0d9488" text-anchor="middle" font-weight="bold">3</text>
+<text x="82.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Network</text>
+<text x="82.0" y="326.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Packet</text>
+<text x="262.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Packet</text>
+<text x="420.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">IP, ICMP, OSPF, BGP, ARP</text>
+<text x="676.0" y="317.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">Router</text>
+<rect x="30.0" y="340.0" width="720.0" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<rect x="34.0" y="346.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="54.0" y="367.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">2</text>
+<text x="82.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Data Link</text>
+<text x="82.0" y="376.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Frame</text>
+<text x="262.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Frame</text>
+<text x="420.0" y="360.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">Ethernet, MAC, VLAN 802.1Q, PPP</text>
+<text x="676.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">Switch</text>
+<rect x="30.0" y="390.0" width="720.0" height="46.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<rect x="34.0" y="396.0" width="40.0" height="34.0" rx="5" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="54.0" y="417.7" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d97706" text-anchor="middle" font-weight="bold">1</text>
+<text x="82.0" y="410.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="start" font-weight="bold">Physical</text>
+<text x="82.0" y="426.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Bits</text>
+<text x="262.0" y="417.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">PDU: Bits</text>
+<text x="420.0" y="410.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#475569" text-anchor="start" font-weight="normal">Cables, hubs, signals, 802.11</text>
+<text x="676.0" y="417.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">Hub</text>
+<text x="30.0" y="464.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Layer 1–2 = hardware/media layers  •  Layer 3–4 = addressing &amp; delivery  •  Layer 5–7 = application-facing</text>
+<text x="30.0" y="484.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Trap: TLS is described as sitting BETWEEN the Transport and Application layers (it protects L4–L7 traffic).</text>
+</svg>

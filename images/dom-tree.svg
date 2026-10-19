@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430" viewBox="0 0 800 430" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="430" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="429" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">The DOM — How the Browser Sees Your HTML</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">A tree of nodes you can find, read and change with JavaScript</text>
+<rect x="30.0" y="78.0" width="300.0" height="190.0" rx="6" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="44.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">index.html</text>
+<text x="44.0" y="122.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">&lt;html&gt;</text>
+<text x="44.0" y="141.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">  &lt;body&gt;</text>
+<text x="44.0" y="160.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">    &lt;h1 id="title"&gt;Hi&lt;/h1&gt;</text>
+<text x="44.0" y="179.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">    &lt;p class="msg"&gt;Text&lt;/p&gt;</text>
+<text x="44.0" y="198.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">    &lt;button id="btn"&gt;Click&lt;/button&gt;</text>
+<text x="44.0" y="217.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">  &lt;/body&gt;</text>
+<text x="44.0" y="236.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">&lt;/html&gt;</text>
+<line x1="340.0" y1="170.0" x2="400.0" y2="170.0" stroke="#475569" stroke-width="1.6"/>
+<path d="M 400.0,170.0 L 393.1,174.0 L 393.1,166.0 Z" fill="#475569"/>
+<text x="370.0" y="174.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">parsed into</text>
+<line x1="470.0" y1="118.0" x2="470.0" y2="132.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="470.0" y1="132.0" x2="470.0" y2="132.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 470.0,132.0 L 464.8,135.0 L 464.8,129.0 Z" fill="#475569"/>
+<line x1="470.0" y1="168.0" x2="470.0" y2="192.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="470.0" y1="192.0" x2="380.0" y2="192.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 380.0,192.0 L 385.2,189.0 L 385.2,195.0 Z" fill="#475569"/>
+<line x1="470.0" y1="168.0" x2="470.0" y2="192.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="470.0" y1="192.0" x2="600.0" y2="192.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 600.0,192.0 L 594.8,195.0 L 594.8,189.0 Z" fill="#475569"/>
+<line x1="600.0" y1="228.0" x2="600.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="600.0" y1="252.0" x2="480.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 480.0,252.0 L 485.2,249.0 L 485.2,255.0 Z" fill="#475569"/>
+<line x1="600.0" y1="228.0" x2="600.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="600.0" y1="252.0" x2="610.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 610.0,252.0 L 604.8,255.0 L 604.8,249.0 Z" fill="#475569"/>
+<line x1="600.0" y1="228.0" x2="600.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="600.0" y1="252.0" x2="740.0" y2="252.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 740.0,252.0 L 734.8,255.0 L 734.8,249.0 Z" fill="#475569"/>
+<rect x="438.2" y="100.0" width="63.6" height="34.0" rx="7" fill="#4755691e" stroke="#475569" stroke-width="1.2"/>
+<text x="470.0" y="122.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">document</text>
+<rect x="440.0" y="150.0" width="60.0" height="34.0" rx="7" fill="#4f46e51e" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="470.0" y="172.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;html&gt;</text>
+<rect x="350.0" y="210.0" width="60.0" height="34.0" rx="7" fill="#0d94881e" stroke="#0d9488" stroke-width="1.2"/>
+<text x="380.0" y="232.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;head&gt;</text>
+<rect x="570.0" y="210.0" width="60.0" height="34.0" rx="7" fill="#0d94881e" stroke="#0d9488" stroke-width="1.2"/>
+<text x="600.0" y="232.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;body&gt;</text>
+<rect x="428.2" y="270.0" width="103.5" height="34.0" rx="7" fill="#d977061e" stroke="#d97706" stroke-width="1.2"/>
+<text x="480.0" y="292.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;h1 id="title"&gt;</text>
+<rect x="558.2" y="270.0" width="103.5" height="34.0" rx="7" fill="#d977061e" stroke="#d97706" stroke-width="1.2"/>
+<text x="610.0" y="292.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;p class="msg"&gt;</text>
+<rect x="682.5" y="270.0" width="114.9" height="34.0" rx="7" fill="#d977061e" stroke="#d97706" stroke-width="1.2"/>
+<text x="740.0" y="292.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">&lt;button id="btn"&gt;</text>
+<rect x="30.0" y="300.0" width="740.0" height="112.0" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="46.0" y="322.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" text-anchor="start" font-weight="bold">The five DOM moves you must know for the coding round</text>
+<text x="46.0" y="344.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">document.getElementById('btn')</text>
+<text x="46.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">find ONE element by id</text>
+<text x="296.0" y="344.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">document.querySelector('.msg')</text>
+<text x="296.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">first match for ANY CSS selector</text>
+<text x="546.0" y="344.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">document.querySelectorAll('.msg')</text>
+<text x="546.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">ALL matches (NodeList — has forEach)</text>
+<text x="46.0" y="374.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">el.textContent = 'New text'</text>
+<text x="46.0" y="387.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">change the visible text (safe)</text>
+<text x="296.0" y="374.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">el.addEventListener('click', fn)</text>
+<text x="296.0" y="387.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">run fn when the element is clicked</text>
+<text x="546.0" y="374.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="start" font-weight="bold">el.classList.toggle('active')</text>
+<text x="546.0" y="387.0" font-family="Helvetica, Arial, sans-serif" font-size="8.8" fill="#6b7280" text-anchor="start" font-weight="normal">add/remove a CSS class</text>
+</svg>

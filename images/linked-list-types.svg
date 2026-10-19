@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="418" viewBox="0 0 780 418" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="780" height="418" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="779" height="417" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Three Linked-List Flavours</text>
+<rect x="30.0" y="90.0" width="720.0" height="88.0" rx="6" fill="#4f46e512" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="44.0" y="110.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#4f46e5" text-anchor="start" font-weight="bold">SINGLY LINKED LIST</text>
+<text x="44.0" y="128.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">Each node: [ data | next ]. Traversal is one-way; the tail points to NULL.</text>
+<rect x="44.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="61.0" y="157.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">10</text>
+<rect x="78.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="95.0" y="157.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="112.0" y1="152.0" x2="122.0" y2="152.0" stroke="#4f46e5" stroke-width="1.3"/>
+<path d="M 122.0,152.0 L 116.8,155.0 L 116.8,149.0 Z" fill="#4f46e5"/>
+<rect x="144.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="161.0" y="157.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<rect x="178.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="195.0" y="157.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="212.0" y1="152.0" x2="222.0" y2="152.0" stroke="#4f46e5" stroke-width="1.3"/>
+<path d="M 222.0,152.0 L 216.8,155.0 L 216.8,149.0 Z" fill="#4f46e5"/>
+<rect x="244.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="261.0" y="157.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<rect x="278.0" y="138.0" width="34.0" height="28.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="295.0" y="157.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="312.0" y1="152.0" x2="322.0" y2="152.0" stroke="#4f46e5" stroke-width="1.3"/>
+<path d="M 322.0,152.0 L 316.8,155.0 L 316.8,149.0 Z" fill="#4f46e5"/>
+<text x="340.0" y="157.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">NULL</text>
+<rect x="30.0" y="190.0" width="720.0" height="88.0" rx="6" fill="#0d948812" stroke="#0d9488" stroke-width="1.2"/>
+<text x="44.0" y="210.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#0d9488" text-anchor="start" font-weight="bold">DOUBLY LINKED LIST</text>
+<text x="44.0" y="228.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">Each node: [ prev | data | next ]. Walk both ways; deletion is O(1) if you have the node.</text>
+<rect x="44.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="57.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">←</text>
+<rect x="70.0" y="238.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="87.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">10</text>
+<rect x="104.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="117.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">→</text>
+<line x1="130.0" y1="252.0" x2="140.0" y2="252.0" stroke="#0d9488" stroke-width="1.3"/>
+<path d="M 140.0,252.0 L 134.8,255.0 L 134.8,249.0 Z" fill="#0d9488"/>
+<line x1="140.0" y1="260.0" x2="130.0" y2="260.0" stroke="#0d9488" stroke-width="1.3"/>
+<path d="M 130.0,260.0 L 135.2,257.0 L 135.2,263.0 Z" fill="#0d9488"/>
+<rect x="154.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="167.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">←</text>
+<rect x="180.0" y="238.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="197.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<rect x="214.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="227.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">→</text>
+<line x1="240.0" y1="252.0" x2="250.0" y2="252.0" stroke="#0d9488" stroke-width="1.3"/>
+<path d="M 250.0,252.0 L 244.8,255.0 L 244.8,249.0 Z" fill="#0d9488"/>
+<line x1="250.0" y1="260.0" x2="240.0" y2="260.0" stroke="#0d9488" stroke-width="1.3"/>
+<path d="M 240.0,260.0 L 245.2,257.0 L 245.2,263.0 Z" fill="#0d9488"/>
+<rect x="264.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="277.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">←</text>
+<rect x="290.0" y="238.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="307.0" y="257.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<rect x="324.0" y="238.0" width="26.0" height="28.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="337.0" y="257.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">→</text>
+<rect x="30.0" y="290.0" width="720.0" height="88.0" rx="6" fill="#d9770612" stroke="#d97706" stroke-width="1.2"/>
+<text x="44.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#d97706" text-anchor="start" font-weight="bold">CIRCULAR LINKED LIST</text>
+<text x="44.0" y="328.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">Tail links back to the head — no NULL. Useful for round-robin scheduling / ring buffers.</text>
+<rect x="44.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="61.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">10</text>
+<rect x="78.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#d9770622" stroke="#d97706" stroke-width="1.2"/>
+<text x="95.0" y="357.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="112.0" y1="352.0" x2="144.0" y2="352.0" stroke="#d97706" stroke-width="1.3"/>
+<path d="M 144.0,352.0 L 138.8,355.0 L 138.8,349.0 Z" fill="#d97706"/>
+<rect x="144.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="161.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<rect x="178.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#d9770622" stroke="#d97706" stroke-width="1.2"/>
+<text x="195.0" y="357.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="212.0" y1="352.0" x2="244.0" y2="352.0" stroke="#d97706" stroke-width="1.3"/>
+<path d="M 244.0,352.0 L 238.8,355.0 L 238.8,349.0 Z" fill="#d97706"/>
+<rect x="244.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="261.0" y="357.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<rect x="278.0" y="338.0" width="34.0" height="28.0" rx="7" fill="#d9770622" stroke="#d97706" stroke-width="1.2"/>
+<text x="295.0" y="357.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">•→</text>
+<line x1="278.0" y1="366.0" x2="278.0" y2="382.0" stroke="#d97706" stroke-width="1.3" stroke-dasharray="4 3"/>
+<line x1="278.0" y1="382.0" x2="61.0" y2="382.0" stroke="#d97706" stroke-width="1.3" stroke-dasharray="4 3"/>
+<line x1="61.0" y1="382.0" x2="61.0" y2="368.0" stroke="#d97706" stroke-width="1.3"/>
+<path d="M 61.0,368.0 L 64.0,373.2 L 58.0,373.2 Z" fill="#d97706"/>
+<text x="30.0" y="386.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Head pointer must be updated when inserting/deleting at the front — the classic place to lose marks (and the reason for a</text>
+<text x="30.0" y="400.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">dummy/sentinel node).</text>
+</svg>

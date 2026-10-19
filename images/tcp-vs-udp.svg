@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="396" viewBox="0 0 740 396" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="740" height="396" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="739" height="395" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">TCP vs UDP — The Comparison Accenture Tests</text>
+<rect x="30.0" y="74.0" width="250.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="93.1" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" text-anchor="middle" font-weight="bold">Feature</text>
+<rect x="290.0" y="74.0" width="200.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="390.0" y="93.1" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" text-anchor="middle" font-weight="bold">TCP</text>
+<rect x="500.0" y="74.0" width="210.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="605.0" y="93.1" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" text-anchor="middle" font-weight="bold">UDP</text>
+<rect x="30.0" y="104.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="126.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Connection</text>
+<rect x="290.0" y="104.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="126.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Connection-oriented (3-way handshake)</text>
+<rect x="500.0" y="104.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="126.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Connectionless — just send</text>
+<rect x="30.0" y="140.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="162.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Reliability</text>
+<rect x="290.0" y="140.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="162.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Guaranteed: ACKs + retransmission</text>
+<rect x="500.0" y="140.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="162.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Best effort; packets may be lost</text>
+<rect x="30.0" y="176.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="198.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Ordering</text>
+<rect x="290.0" y="176.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="198.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">In-order delivery (sequence numbers)</text>
+<rect x="500.0" y="176.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="198.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">No ordering guarantee</text>
+<rect x="30.0" y="212.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Speed / overhead</text>
+<rect x="290.0" y="212.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Slower, more overhead</text>
+<rect x="500.0" y="212.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="234.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Faster, minimal overhead</text>
+<rect x="30.0" y="248.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Header size</text>
+<rect x="290.0" y="248.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">20 bytes</text>
+<rect x="500.0" y="248.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">8 bytes</text>
+<rect x="30.0" y="284.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Flow &amp; congestion</text>
+<rect x="290.0" y="284.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Yes — sliding window, slow start</text>
+<rect x="500.0" y="284.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="306.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">No</text>
+<rect x="30.0" y="320.0" width="250.0" height="33.0" rx="4" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+<text x="40.0" y="342.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Typical use</text>
+<rect x="290.0" y="320.0" width="200.0" height="33.0" rx="4" fill="#eef2ff" stroke="#4f46e5" stroke-width="1"/>
+<text x="298.0" y="342.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Web, email, file transfer, SSH</text>
+<rect x="500.0" y="320.0" width="210.0" height="33.0" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="1"/>
+<text x="508.0" y="342.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">VoIP, video, DNS, gaming, NTP</text>
+<text x="30.0" y="372.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Trap: UDP is NOT "worse" — for live voice/video, lost packets are preferable to the delay caused by retransmission</text>
+<text x="30.0" y="387.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">(jitter).</text>
+</svg>

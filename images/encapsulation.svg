@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="352" viewBox="0 0 760 352" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="352" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="759" height="351" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Encapsulation — What Each Layer Adds on the Way Down</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Sender adds headers going down; receiver strips them coming up</text>
+<rect x="40.0" y="90.0" width="118.0" height="78.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="99.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">Ethernet header</text>
+<rect x="158.0" y="90.0" width="118.0" height="78.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="217.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">IP header</text>
+<rect x="276.0" y="90.0" width="118.0" height="78.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="335.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">TCP header</text>
+<rect x="394.0" y="90.0" width="190.0" height="78.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="489.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">Application data</text>
+<rect x="584.0" y="90.0" width="118.0" height="78.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="643.0" y="134.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">FCS (trailer)</text>
+<text x="40.0" y="78.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">The frame that actually goes on the wire (Layer 2)</text>
+<line x1="99.0" y1="174.0" x2="99.0" y2="202.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="99.0" y1="202.0" x2="99.0" y2="202.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 99.0,202.0 L 93.8,205.0 L 93.8,199.0 Z" fill="#475569"/>
+<line x1="217.0" y1="174.0" x2="217.0" y2="202.0" stroke="#0d9488" stroke-width="1.2"/>
+<line x1="217.0" y1="202.0" x2="217.0" y2="202.0" stroke="#0d9488" stroke-width="1.2"/>
+<path d="M 217.0,202.0 L 211.8,205.0 L 211.8,199.0 Z" fill="#0d9488"/>
+<line x1="335.0" y1="174.0" x2="335.0" y2="202.0" stroke="#4f46e5" stroke-width="1.2"/>
+<line x1="335.0" y1="202.0" x2="335.0" y2="202.0" stroke="#4f46e5" stroke-width="1.2"/>
+<path d="M 335.0,202.0 L 329.8,205.0 L 329.8,199.0 Z" fill="#4f46e5"/>
+<line x1="489.0" y1="174.0" x2="489.0" y2="202.0" stroke="#d97706" stroke-width="1.2"/>
+<line x1="489.0" y1="202.0" x2="489.0" y2="202.0" stroke="#d97706" stroke-width="1.2"/>
+<path d="M 489.0,202.0 L 483.8,205.0 L 483.8,199.0 Z" fill="#d97706"/>
+<line x1="643.0" y1="174.0" x2="643.0" y2="202.0" stroke="#475569" stroke-width="1.2"/>
+<line x1="643.0" y1="202.0" x2="643.0" y2="202.0" stroke="#475569" stroke-width="1.2"/>
+<path d="M 643.0,202.0 L 637.8,205.0 L 637.8,199.0 Z" fill="#475569"/>
+<rect x="158.0" y="218.0" width="190.0" height="30.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="253.0" y="236.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="normal">L4: Segment (TCP hdr + data)</text>
+<rect x="40.0" y="258.0" width="308.0" height="30.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="194.0" y="276.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="normal">L3: Packet (IP hdr + segment)</text>
+<rect x="40.0" y="298.0" width="426.0" height="30.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="253.0" y="316.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="normal">L2: Frame (Eth hdr + packet + FCS)</text>
+<text x="500.0" y="238.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Device view:</text>
+<text x="500.0" y="258.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Switch reads L2 frame (MAC only)</text>
+<text x="500.0" y="276.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Router reads L3 packet (IP only)</text>
+<text x="500.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Firewall reads L3 + L4 (IP + port)</text>
+<text x="500.0" y="318.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">A switch never rewrites the IP header;</text>
+<text x="500.0" y="334.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">a router rewrites L2 per hop.</text>
+</svg>

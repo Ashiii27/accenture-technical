@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="430" viewBox="0 0 790 430" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="790" height="430" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="789" height="429" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">DNS Resolution — Iterative Query for www.example.com</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">The local resolver does the walking; your machine makes one query and gets one answer</text>
+<rect x="36.0" y="84.0" width="150.0" height="60.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="111.0" y="108.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">Your PC</text>
+<text x="111.0" y="124.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">stub resolver</text>
+<rect x="250.0" y="84.0" width="190.0" height="60.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="345.0" y="106.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">Local DNS resolver</text>
+<text x="345.0" y="122.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">recursive + caching</text>
+<rect x="520.0" y="96.0" width="240.0" height="56.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="640.0" y="122.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">Root server  (.)</text>
+<text x="640.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">13 clusters worldwide</text>
+<rect x="520.0" y="168.0" width="240.0" height="56.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="640.0" y="194.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">TLD server  (.com)</text>
+<text x="640.0" y="212.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">knows every .com name server</text>
+<rect x="520.0" y="240.0" width="240.0" height="56.0" rx="7" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="640.0" y="266.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">Authoritative  ns1.example.com</text>
+<text x="640.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">HAS the A record</text>
+<line x1="186.0" y1="106.0" x2="250.0" y2="106.0" stroke="#4f46e5" stroke-width="1.5"/>
+<path d="M 250.0,106.0 L 243.9,109.5 L 243.9,102.5 Z" fill="#4f46e5"/>
+<text x="218.0" y="110.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">1  query</text>
+<line x1="440.0" y1="108.0" x2="520.0" y2="120.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 520.0,120.0 L 513.5,122.6 L 514.5,115.6 Z" fill="#0d9488"/>
+<text x="479.1" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">2  "where is .com?"</text>
+<line x1="520.0" y1="140.0" x2="440.0" y2="128.0" stroke="#475569" stroke-width="1.4"/>
+<path d="M 440.0,128.0 L 446.5,125.4 L 445.5,132.4 Z" fill="#475569"/>
+<text x="480.9" y="126.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">3  ask .com TLD</text>
+<line x1="440.0" y1="160.0" x2="520.0" y2="168.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 520.0,168.0 L 513.6,170.9 L 514.3,163.9 Z" fill="#0d9488"/>
+<text x="479.4" y="168.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">4  "where is example.com?"</text>
+<line x1="520.0" y1="196.0" x2="440.0" y2="184.0" stroke="#475569" stroke-width="1.4"/>
+<path d="M 440.0,184.0 L 446.5,181.4 L 445.5,188.4 Z" fill="#475569"/>
+<text x="480.9" y="182.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">5  ask ns1.example.com</text>
+<line x1="440.0" y1="216.0" x2="520.0" y2="252.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 520.0,252.0 L 513.0,252.7 L 515.9,246.3 Z" fill="#0d9488"/>
+<text x="477.5" y="237.6" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">6  "A = 93.184.216.34"</text>
+<line x1="520.0" y1="284.0" x2="440.0" y2="272.0" stroke="#d97706" stroke-width="1.5"/>
+<path d="M 440.0,272.0 L 446.5,269.4 L 445.5,276.4 Z" fill="#d97706"/>
+<text x="480.9" y="270.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">7  answer + TTL</text>
+<line x1="250.0" y1="128.0" x2="186.0" y2="128.0" stroke="#16a34a" stroke-width="1.6"/>
+<path d="M 186.0,128.0 L 192.9,124.0 L 192.9,132.0 Z" fill="#16a34a"/>
+<text x="218.0" y="120.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">8  answer (cached)</text>
+<rect x="36.0" y="320.0" width="724.0" height="82.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="50.0" y="340.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Record types you must know</text>
+<text x="50.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">A / AAAA  — name → IPv4 / IPv6</text>
+<text x="230.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">CNAME  — alias → canonical name</text>
+<text x="410.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">MX  — mail server for the domain</text>
+<text x="590.0" y="358.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">NS  — authoritative name server</text>
+<text x="50.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">PTR  — IP → name (reverse)</text>
+<text x="230.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">SOA  — zone start-of-authority</text>
+<text x="410.0" y="378.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">TXT  — SPF, DKIM, verification</text>
+</svg>
