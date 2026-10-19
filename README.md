@@ -26,6 +26,7 @@ This repository contains detailed notes, deep-dive explanations, and **four full
 | [09 - Mock Paper 2 (MCQ Harder)](./09-mock-paper-2.md) | Same distribution, harder questions (subnet math, Collatz, bitwise, superkeys) | 40 MCQs with detailed answers |
 | [10 - Mock Paper 3 (Coding — old pattern)](./10-mock-paper-3-coding.md) | 3 easy-medium DSA coding problems + bonus SQL | Worked solutions, checklist, extra problems |
 | [13 - Mock Paper 4 (Coding — NEW 2025/2026 pattern)](./13-mock-paper-4-full-coding-round.md) | Part A DSA + Part B SQL (3 queries) + Part C Frontend (Tip Calculator with buttons/DOM) — exactly matching recent 3-part coding drives | Full solutions with explanations |
+| [**hard-mocks/** — 5 HARD sets](./hard-mocks/) | **250 unique questions, 50 per set**, pitched slightly **above** Accenture level: 8 MS Office + 12 Networking/Security/Cloud + 12 DSA/DBMS/OOP/HTML-CSS-JS + 14 Pseudocode + 4 Applied SQL/code per set. Every computational answer machine-verified. | Answer keys with explanations + printable PDFs |
 
 ## Accenture Exam Pattern (2025–2026 drives)
 
