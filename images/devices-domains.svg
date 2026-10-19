@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="400" viewBox="0 0 790 400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="790" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="789" height="399" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Hub vs Switch vs Router — Collision &amp; Broadcast Domains</text>
+<rect x="30.0" y="78.0" width="240.0" height="70.0" rx="7" fill="#4f46e51a" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#4f46e5" text-anchor="middle" font-weight="bold">HUB (Layer 1)</text>
+<text x="150.0" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">Repeats every bit to every port</text>
+<rect x="30.0" y="158.0" width="240.0" height="96.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1"/>
+<rect x="126.0" y="172.0" width="48.0" height="26.0" rx="7" fill="#4f46e522" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="188.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">dev</text>
+<rect x="66.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="150.0" y1="198.0" x2="84.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="118.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="150.0" y1="198.0" x2="136.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="170.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="150.0" y1="198.0" x2="188.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="38.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC1</text>
+<text x="90.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC2</text>
+<text x="142.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC3</text>
+<text x="194.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC4</text>
+<rect x="30.0" y="266.0" width="240.0" height="50.0" rx="6" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">1 collision domain, 1 broadcast domain</text>
+<text x="150.0" y="302.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">Half-duplex, slowest, obsolete</text>
+<rect x="280.0" y="78.0" width="240.0" height="70.0" rx="7" fill="#0d94881a" stroke="#0d9488" stroke-width="1.2"/>
+<text x="400.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="middle" font-weight="bold">SWITCH (Layer 2)</text>
+<text x="400.0" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">Forwards by MAC address table</text>
+<rect x="280.0" y="158.0" width="240.0" height="96.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1"/>
+<rect x="376.0" y="172.0" width="48.0" height="26.0" rx="7" fill="#0d948822" stroke="#0d9488" stroke-width="1.2"/>
+<text x="400.0" y="188.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">dev</text>
+<rect x="316.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="400.0" y1="198.0" x2="334.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="368.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="400.0" y1="198.0" x2="386.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="420.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="400.0" y1="198.0" x2="438.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="288.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC1</text>
+<text x="340.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC2</text>
+<text x="392.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC3</text>
+<text x="444.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC4</text>
+<rect x="280.0" y="266.0" width="240.0" height="50.0" rx="6" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="400.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">Collision domain per port, 1 broadcast domain</text>
+<text x="400.0" y="302.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">Full-duplex; VLANs split broadcast domains</text>
+<rect x="530.0" y="78.0" width="240.0" height="70.0" rx="7" fill="#d977061a" stroke="#d97706" stroke-width="1.2"/>
+<text x="650.0" y="100.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="middle" font-weight="bold">ROUTER (Layer 3)</text>
+<text x="650.0" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="normal">Forwards by IP / routing table</text>
+<rect x="530.0" y="158.0" width="240.0" height="96.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1"/>
+<rect x="626.0" y="172.0" width="48.0" height="26.0" rx="7" fill="#d9770622" stroke="#d97706" stroke-width="1.2"/>
+<text x="650.0" y="188.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">dev</text>
+<rect x="566.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="650.0" y1="198.0" x2="584.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="618.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="650.0" y1="198.0" x2="636.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<rect x="670.0" y="218.0" width="36.0" height="22.0" rx="7" fill="#ffffff" stroke="#94a3b8" stroke-width="1.2"/>
+<line x1="650.0" y1="198.0" x2="688.0" y2="218.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="538.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC1</text>
+<text x="590.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC2</text>
+<text x="642.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC3</text>
+<text x="694.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="start" font-weight="normal">PC4</text>
+<rect x="530.0" y="266.0" width="240.0" height="50.0" rx="6" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="650.0" y="286.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#111827" text-anchor="middle" font-weight="bold">Separate broadcast domain per interface</text>
+<text x="650.0" y="302.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">Does NOT forward broadcasts — that is the point</text>
+<rect x="30.0" y="332.0" width="730.0" height="56.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="46.0" y="352.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#d97706" text-anchor="start" font-weight="bold">Memory hook</text>
+<text x="46.0" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Hub: everyone hears everything. Switch: learns who is where (MAC table). Router: separates networks and stops broadcasts.</text>
+<text x="46.0" y="383.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Firewall: filters by IP + port (and, for NGFW, by application).</text>
+</svg>

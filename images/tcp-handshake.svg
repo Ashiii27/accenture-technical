@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="520" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="759" height="519" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">TCP Connection: Three-Way Handshake and Four-Way Teardown</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Flags that consume a sequence number: SYN and FIN</text>
+<rect x="30.0" y="92.0" width="700.0" height="210.0" rx="8" fill="#fafafa" stroke="#94a3b8" stroke-width="1"/>
+<text x="44.0" y="114.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#4f46e5" text-anchor="start" font-weight="bold">A. OPENING THE CONNECTION</text>
+<rect x="88.0" y="126.0" width="124.0" height="34.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="147.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">CLIENT</text>
+<rect x="498.0" y="126.0" width="124.0" height="34.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="560.0" y="147.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">SERVER</text>
+<line x1="150.0" y1="164.0" x2="150.0" y2="288.0" stroke="#4f46e5" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560.0" y1="164.0" x2="560.0" y2="288.0" stroke="#0d9488" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="150.0" y1="192.0" x2="560.0" y2="192.0" stroke="#4f46e5" stroke-width="1.6"/>
+<path d="M 560.0,192.0 L 553.9,195.5 L 553.9,188.5 Z" fill="#4f46e5"/>
+<text x="355.0" y="185.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">SYN, seq=x</text>
+<text x="574.0" y="196.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">Server moves LISTEN → SYN-RCVD</text>
+<line x1="560.0" y1="226.0" x2="150.0" y2="226.0" stroke="#0d9488" stroke-width="1.6"/>
+<path d="M 150.0,226.0 L 156.1,222.5 L 156.1,229.5 Z" fill="#0d9488"/>
+<text x="355.0" y="219.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">SYN-ACK, seq=y, ack=x+1</text>
+<text x="30.0" y="230.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">Client moves SYN-SENT → ESTABLISHED</text>
+<line x1="150.0" y1="260.0" x2="560.0" y2="260.0" stroke="#4f46e5" stroke-width="1.6"/>
+<path d="M 560.0,260.0 L 553.9,263.5 L 553.9,256.5 Z" fill="#4f46e5"/>
+<text x="355.0" y="253.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">ACK, ack=y+1</text>
+<text x="574.0" y="264.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">Server moves SYN-RCVD → ESTABLISHED</text>
+<text x="44.0" y="294.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Data can start flowing after step 3. Data bytes are numbered from x+1 (client) and y+1 (server).</text>
+<rect x="30.0" y="322.0" width="700.0" height="190.0" rx="8" fill="#fafafa" stroke="#94a3b8" stroke-width="1"/>
+<text x="44.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#dc2626" text-anchor="start" font-weight="bold">B. CLOSING THE CONNECTION (four-way, either side can start)</text>
+<rect x="88.0" y="356.0" width="124.0" height="30.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="150.0" y="374.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">ACTIVE CLOSE</text>
+<rect x="498.0" y="356.0" width="124.0" height="30.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="560.0" y="374.8" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">PASSIVE CLOSE</text>
+<line x1="150.0" y1="390.0" x2="150.0" y2="498.0" stroke="#4f46e5" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560.0" y1="390.0" x2="560.0" y2="498.0" stroke="#0d9488" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="150.0" y1="418.0" x2="560.0" y2="418.0" stroke="#4f46e5" stroke-width="1.5"/>
+<path d="M 560.0,418.0 L 554.8,421.0 L 554.8,415.0 Z" fill="#4f46e5"/>
+<text x="355.0" y="412.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">FIN, seq=u</text>
+<line x1="560.0" y1="446.0" x2="150.0" y2="446.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 150.0,446.0 L 155.2,443.0 L 155.2,449.0 Z" fill="#0d9488"/>
+<text x="355.0" y="440.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">ACK, ack=u+1</text>
+<line x1="560.0" y1="474.0" x2="150.0" y2="474.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 150.0,474.0 L 155.2,471.0 L 155.2,477.0 Z" fill="#0d9488"/>
+<text x="355.0" y="468.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">FIN, seq=v</text>
+<line x1="150.0" y1="502.0" x2="560.0" y2="502.0" stroke="#4f46e5" stroke-width="1.5"/>
+<path d="M 560.0,502.0 L 554.8,505.0 L 554.8,499.0 Z" fill="#4f46e5"/>
+<text x="355.0" y="496.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="normal">ACK, ack=v+1</text>
+<text x="44.0" y="504.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">The ACTIVE closer (first FIN) sends the last ACK and waits in TIME_WAIT for 2 × MSL — that is where stray duplicate packets die.</text>
+</svg>

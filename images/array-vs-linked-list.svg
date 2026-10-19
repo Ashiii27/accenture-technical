@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="399" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Arrays vs Linked Lists — How Memory Is Actually Laid Out</text>
+<rect x="30.0" y="76.0" width="350.0" height="30.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="205.0" y="95.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">ARRAY — one contiguous block</text>
+<rect x="40.0" y="116.0" width="58.0" height="40.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="69.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">10</text>
+<text x="69.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">[0]</text>
+<text x="69.0" y="182.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">200</text>
+<rect x="100.0" y="116.0" width="58.0" height="40.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="129.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<text x="129.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">[1]</text>
+<text x="129.0" y="182.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">204</text>
+<rect x="160.0" y="116.0" width="58.0" height="40.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="189.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<text x="189.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">[2]</text>
+<text x="189.0" y="182.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">208</text>
+<rect x="220.0" y="116.0" width="58.0" height="40.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="249.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">40</text>
+<text x="249.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">[3]</text>
+<text x="249.0" y="182.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">212</text>
+<rect x="280.0" y="116.0" width="58.0" height="40.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="309.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">50</text>
+<text x="309.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="middle" font-weight="normal">[4]</text>
+<text x="309.0" y="182.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">216</text>
+<text x="40.0" y="202.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">address: 200, 204, 208, 212, 216  (4 bytes each)</text>
+<text x="40.0" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Index i → address = base + i × size  ⇒  O(1) random access</text>
+<rect x="420.0" y="76.0" width="350.0" height="30.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="595.0" y="95.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">LINKED LIST — scattered nodes</text>
+<rect x="440.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="462.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">10</text>
+<rect x="484.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="506.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">312</text>
+<text x="462.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">data</text>
+<text x="506.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">next</text>
+<rect x="530.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="552.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">20</text>
+<rect x="574.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="596.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">188</text>
+<text x="552.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">data</text>
+<text x="596.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">next</text>
+<line x1="528.0" y1="136.0" x2="530.0" y2="136.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 530.0,136.0 L 523.9,139.5 L 523.9,132.5 Z" fill="#0d9488"/>
+<rect x="620.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="642.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">30</text>
+<rect x="664.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="686.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">704</text>
+<text x="642.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">data</text>
+<text x="686.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">next</text>
+<line x1="618.0" y1="136.0" x2="620.0" y2="136.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 620.0,136.0 L 613.9,139.5 L 613.9,132.5 Z" fill="#0d9488"/>
+<rect x="710.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+<text x="732.0" y="142.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">40</text>
+<rect x="754.0" y="116.0" width="44.0" height="40.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="776.0" y="142.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">NULL</text>
+<text x="732.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">data</text>
+<text x="776.0" y="168.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle" font-weight="normal">next</text>
+<line x1="708.0" y1="136.0" x2="710.0" y2="136.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 710.0,136.0 L 703.9,139.5 L 703.9,132.5 Z" fill="#0d9488"/>
+<text x="440.0" y="184.0" font-family="Helvetica, Arial, sans-serif" font-size="8" fill="#475569" text-anchor="start" font-weight="normal">address</text>
+<text x="462.0" y="196.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">512</text>
+<text x="552.0" y="196.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">308</text>
+<text x="642.0" y="196.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">900</text>
+<text x="732.0" y="196.0" font-family="Courier New, Courier, monospace" font-size="8" fill="#475569" text-anchor="middle" font-weight="normal">164</text>
+<text x="420.0" y="222.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Nodes can sit anywhere — you must WALK the pointers  ⇒  O(n) access</text>
+<rect x="30.0" y="246.0" width="170.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="115.0" y="262.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Operation</text>
+<rect x="210.0" y="246.0" width="170.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="295.0" y="262.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Array</text>
+<rect x="390.0" y="246.0" width="170.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="475.0" y="262.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Linked list</text>
+<rect x="570.0" y="246.0" width="210.0" height="26.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="675.0" y="262.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Why</text>
+<rect x="30.0" y="272.0" width="170.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="291.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="bold">Access i-th</text>
+<rect x="210.0" y="272.0" width="170.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="218.0" y="291.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(1)</text>
+<rect x="390.0" y="272.0" width="170.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="291.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(n)</text>
+<rect x="570.0" y="272.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="578.0" y="291.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">array = arithmetic, list = walk</text>
+<rect x="30.0" y="302.0" width="170.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="321.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="bold">Insert at front</text>
+<rect x="210.0" y="302.0" width="170.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="218.0" y="321.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(n)</text>
+<rect x="390.0" y="302.0" width="170.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="321.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(1)</text>
+<rect x="570.0" y="302.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="578.0" y="321.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">array must shift everything right</text>
+<rect x="30.0" y="332.0" width="170.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="351.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="bold">Insert in middle (given node)</text>
+<rect x="210.0" y="332.0" width="170.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="218.0" y="351.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(n)</text>
+<rect x="390.0" y="332.0" width="170.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="351.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">O(1)</text>
+<rect x="570.0" y="332.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="578.0" y="351.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">list only relinks pointers</text>
+<rect x="30.0" y="362.0" width="170.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="38.0" y="381.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="bold">Memory</text>
+<rect x="210.0" y="362.0" width="170.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="218.0" y="381.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">contiguous, may waste/resize</text>
+<rect x="390.0" y="362.0" width="170.0" height="28.0" rx="3" fill="#ecfdf5" stroke="#0d9488" stroke-width="0.8"/>
+<text x="398.0" y="381.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">extra pointer per node</text>
+<rect x="570.0" y="362.0" width="210.0" height="28.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="578.0" y="381.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">cache locality: array wins</text>
+</svg>

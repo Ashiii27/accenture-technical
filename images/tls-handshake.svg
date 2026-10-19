@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="790" height="470" viewBox="0 0 790 470" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="790" height="470" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="789" height="469" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">TLS Handshake — Simplified but Complete</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Goal: authenticate the server, then agree on a SYMMETRIC session key</text>
+<rect x="74.0" y="80.0" width="132.0" height="38.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="140.0" y="103.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">CLIENT (browser)</text>
+<rect x="484.0" y="80.0" width="152.0" height="38.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="560.0" y="103.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="middle" font-weight="bold">SERVER (website)</text>
+<line x1="140.0" y1="122.0" x2="140.0" y2="400.0" stroke="#4f46e5" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="560.0" y1="122.0" x2="560.0" y2="400.0" stroke="#0d9488" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="140.0" y1="152.0" x2="560.0" y2="152.0" stroke="#4f46e5" stroke-width="1.5"/>
+<path d="M 560.0,152.0 L 553.9,155.5 L 553.9,148.5 Z" fill="#4f46e5"/>
+<text x="350.0" y="146.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">1. ClientHello</text>
+<text x="350.0" y="164.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">TLS versions, cipher suites, client random</text>
+<line x1="560.0" y1="188.0" x2="140.0" y2="188.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 140.0,188.0 L 146.1,184.5 L 146.1,191.5 Z" fill="#0d9488"/>
+<text x="350.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#0d9488" text-anchor="middle" font-weight="bold">2. ServerHello</text>
+<text x="350.0" y="200.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">chosen version + cipher, server random</text>
+<line x1="560.0" y1="224.0" x2="140.0" y2="224.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 140.0,224.0 L 146.1,220.5 L 146.1,227.5 Z" fill="#0d9488"/>
+<text x="350.0" y="218.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#0d9488" text-anchor="middle" font-weight="bold">3. Certificate</text>
+<text x="350.0" y="236.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">server's X.509 cert (public key + identity)</text>
+<line x1="560.0" y1="260.0" x2="140.0" y2="260.0" stroke="#0d9488" stroke-width="1.5"/>
+<path d="M 140.0,260.0 L 146.1,256.5 L 146.1,263.5 Z" fill="#0d9488"/>
+<text x="350.0" y="254.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#0d9488" text-anchor="middle" font-weight="bold">4. ServerKeyExchange / HelloDone</text>
+<text x="350.0" y="272.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">ECDHE parameters, signed by the CA-backed key</text>
+<line x1="140.0" y1="296.0" x2="560.0" y2="296.0" stroke="#4f46e5" stroke-width="1.5"/>
+<path d="M 560.0,296.0 L 553.9,299.5 L 553.9,292.5 Z" fill="#4f46e5"/>
+<text x="350.0" y="290.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">5. ClientKeyExchange</text>
+<text x="350.0" y="308.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">client ECDHE public value (RSA: premaster, encrypted)</text>
+<line x1="140.0" y1="332.0" x2="560.0" y2="332.0" stroke="#7c3aed" stroke-width="1.5"/>
+<path d="M 560.0,332.0 L 553.9,335.5 L 553.9,328.5 Z" fill="#7c3aed"/>
+<line x1="560.0" y1="340.0" x2="140.0" y2="340.0" stroke="#7c3aed" stroke-width="1.5"/>
+<path d="M 140.0,340.0 L 146.1,336.5 L 146.1,343.5 Z" fill="#7c3aed"/>
+<text x="350.0" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="middle" font-weight="bold">6. ChangeCipherSpec + Finished</text>
+<text x="350.0" y="344.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">both sides switch to the derived session key</text>
+<line x1="140.0" y1="368.0" x2="560.0" y2="368.0" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M 560.0,368.0 L 553.9,371.5 L 553.9,364.5 Z" fill="#16a34a"/>
+<line x1="560.0" y1="376.0" x2="140.0" y2="376.0" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M 140.0,376.0 L 146.1,372.5 L 146.1,379.5 Z" fill="#16a34a"/>
+<text x="350.0" y="362.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" text-anchor="middle" font-weight="bold">7. Application Data</text>
+<text x="350.0" y="380.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">encrypted with the fast SYMMETRIC key (AES / ChaCha20)</text>
+<rect x="30.0" y="412.0" width="730.0" height="46.0" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="46.0" y="430.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Key point: the browser validates the certificate (issuer, hostname, expiry, revocation). The session key is DERIVED by both</text>
+<text x="46.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">sides — it is never sent over the wire.</text>
+<text x="46.0" y="452.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">ECDHE gives forward secrecy: stealing the server key later does not decrypt captured sessions. TLS 1.3 does the exchange in 1 round</text>
+<text x="46.0" y="466.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">trip. HTTPS = HTTP over TLS on port 443.</text>
+</svg>

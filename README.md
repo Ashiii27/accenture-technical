@@ -18,6 +18,12 @@ This repository contains detailed notes, deep-dive explanations, and **four full
 | [11 - HTML, CSS & JavaScript](./11-html-css-js.md) | **NEW — frontend section**: HTML tags/attributes, CSS selectors/properties/flexbox/box model, JS variables/functions, **DOM manipulation** (getElementById, querySelector, textContent, style, classList, addEventListener, createElement, input values) + a worked counter-app example + 12 practice questions with solutions |
 | [12 - SQL Practice Queries](./12-sql-practice.md) | **NEW — SQL coding section**: 15 graduated SQL problems (SELECT/WHERE/JOIN/GROUP BY/HAVING/ORDER BY/LIMIT/LIKE/IN/self-join/CASE/dates) using a 4-table schema with hidden solutions + a timed 3-question mock SQL round |
 
+### Diagrams
+
+The notes chapters embed **41 hand-built SVG diagrams** wherever a picture explains the topic faster than prose — OSI layers and encapsulation, the TCP/TLS handshakes, subnet math, IP classes, NAT, DNS/DHCP/ARP, devices & domains, crypto, cloud shared responsibility, Excel references and VLOOKUP, PowerPoint master, loop flowcharts, recursion, pass-by-value memory, bubble sort, nested-loop grids, Big-O curves, arrays vs linked lists, list types, stack vs queue, binary search, sorting cheat sheet, BST traversals, ER cardinality, normalization steps, keys hierarchy, SQL joins, clause order, B-tree index, Kadane's, array rotation, the CSS box model, the DOM tree, CSS specificity and the chapter-12 practice schema.
+
+They live in [`images/`](./images/) as **self-contained SVG files** — no external fonts, scripts or images, so they render anywhere (GitHub, VS Code, any offline viewer).
+
 ### Mock Papers
 
 | File | Format | Questions |
@@ -26,6 +32,7 @@ This repository contains detailed notes, deep-dive explanations, and **four full
 | [09 - Mock Paper 2 (MCQ Harder)](./09-mock-paper-2.md) | Same distribution, harder questions (subnet math, Collatz, bitwise, superkeys) | 40 MCQs with detailed answers |
 | [10 - Mock Paper 3 (Coding — old pattern)](./10-mock-paper-3-coding.md) | 3 easy-medium DSA coding problems + bonus SQL | Worked solutions, checklist, extra problems |
 | [13 - Mock Paper 4 (Coding — NEW 2025/2026 pattern)](./13-mock-paper-4-full-coding-round.md) | Part A DSA + Part B SQL (3 queries) + Part C Frontend (Tip Calculator with buttons/DOM) — exactly matching recent 3-part coding drives | Full solutions with explanations |
+| [**hard-mocks/** — 5 HARD sets](./hard-mocks/) | **250 unique questions, 50 per set**, pitched slightly **above** Accenture level: 8 MS Office + 12 Networking/Security/Cloud + 12 DSA/DBMS/OOP/HTML-CSS-JS + 14 Pseudocode + 4 Applied SQL/code per set. Every computational answer machine-verified. | Answer keys with explanations + printable PDFs |
 
 ## Accenture Exam Pattern (2025–2026 drives)
 

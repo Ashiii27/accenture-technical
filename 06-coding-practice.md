@@ -184,6 +184,8 @@ rotate_in_place(arr, 3)
 print(arr)   # [5,6,7,1,2,3,4]
 ```
 
+![Rotating an array by k using three reversals](images/rotate-array.svg)
+
 ### 4) Check if array is sorted
 ```python
 def is_sorted(arr):
@@ -221,6 +223,8 @@ def max_subarray(arr):
 
 print(max_subarray([-2,1,-3,4,-1,2,1,-5,4]))   # 6 (subarray [4,-1,2,1])
 ```
+
+![Kadane's algorithm: extending vs restarting the running sum](images/kadane.svg)
 
 ### 7) Count occurrences of an element
 ```python

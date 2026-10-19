@@ -30,6 +30,8 @@ An **Entity-Relationship (ER) diagram** models database structure graphically.
 
 ---
 
+![ER notation: entity, attribute, relationship, cardinality and participation](images/er-cardinality.svg)
+
 ## 5.2 Normalization
 
 Normalization is the process of organizing a database to reduce **redundancy** and avoid **anomalies** (insert, update, delete).
@@ -75,6 +77,8 @@ Sometimes we intentionally add redundancy (denormalize) for **read performance**
 
 ---
 
+![1NF to 2NF to 3NF: removing repeating groups, partial and transitive dependencies](images/normalization-steps.svg)
+
 ## 5.3 Keys in DBMS
 
 | Key Type | Definition |
@@ -95,6 +99,8 @@ Sometimes we intentionally add redundancy (denormalize) for **read performance**
 
 ---
 
+![Super key, candidate key, primary key and foreign key](images/keys-hierarchy.svg)
+
 ## 5.4 SQL
 
 ### Core Clauses and Order
@@ -113,6 +119,8 @@ LIMIT n;
 - `HAVING` filters **groups after** aggregation (used with GROUP BY).
 - `DISTINCT` removes duplicate rows from the result.
 - `ORDER BY` sorts; `ASC` default, `DESC` for descending.
+
+![The order SQL actually executes its clauses in](images/sql-clause-order.svg)
 
 ### Aggregates
 - `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`.
@@ -145,6 +153,8 @@ WHERE d.dept_id IS NULL;
 ```
 
 ---
+
+![INNER, LEFT, RIGHT, FULL OUTER, CROSS and SELF joins as Venn diagrams](images/sql-joins-venn.svg)
 
 ## 5.5 Transactions & ACID
 
@@ -191,6 +201,8 @@ Other concepts:
 **Use indexes on:** columns used in WHERE, JOIN, ORDER BY, GROUP BY. Avoid indexing columns that are rarely queried or frequently modified, or small tables.
 
 ---
+
+![How a B-tree index turns a full table scan into a short path](images/index-btree.svg)
 
 ## 5.7 Triggers, Views, Stored Procedures (Concepts)
 

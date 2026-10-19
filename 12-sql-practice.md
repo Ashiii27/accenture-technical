@@ -75,6 +75,8 @@ Try to write each query yourself before peeking at the solution.
 
 ---
 
+![The practice schema: employees, departments, projects and the junction table](images/practice-schema.svg)
+
 ## 12.3 Queries — Try These
 
 ### Q1. Simple SELECT with WHERE

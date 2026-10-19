@@ -58,6 +58,8 @@ HTML (HyperText Markup Language) provides **structure** — headings, paragraphs
 
 ---
 
+![The DOM tree a browser builds from an HTML document](images/dom-tree.svg)
+
 ## 11.2 CSS — What You Need to Know
 
 CSS (Cascading Style Sheets) provides **presentation** — colors, layout, fonts, spacing, animations.
@@ -85,6 +87,8 @@ li a { text-decoration: none; }
 button:hover { background-color: darkgreen; cursor: pointer; }
 ```
 
+![CSS specificity: which selector wins when rules collide](images/css-specificity.svg)
+
 ### Common Properties
 
 | Property | Purpose | Examples |
@@ -109,6 +113,8 @@ Every element is a box with four layers (inside to outside):
 **Content → Padding → Border → Margin.**
 
 Total element width = content-width + 2×padding + 2×border (unless `box-sizing: border-box`, in which case width INCLUDES padding/border).
+
+![The CSS box model: content, padding, border and margin](images/css-box-model.svg)
 
 ### Color Formats
 - Named: `red`, `blue`, `white`, `black`, `gray`, etc.

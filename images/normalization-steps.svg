@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="460" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="459" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Normalization — Fixing One Anomaly at a Time (1NF → 2NF → 3NF)</text>
+<rect x="30.0" y="78.0" width="340.0" height="150.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="44.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#dc2626" text-anchor="start" font-weight="bold">UNF — repeating groups</text>
+<text x="44.0" y="120.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Order | Customer | Items</text>
+<text x="44.0" y="138.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1001 | Ravi     | Pen, Book</text>
+<text x="44.0" y="156.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1002 | Anu      | Pen</text>
+<text x="44.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Problem: one cell holds many values → cannot query or</text>
+<text x="44.0" y="196.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">index an item.</text>
+<line x1="378.0" y1="152.0" x2="428.0" y2="152.0" stroke="#dc2626" stroke-width="1.6"/>
+<path d="M 428.0,152.0 L 421.1,156.0 L 421.1,148.0 Z" fill="#dc2626"/>
+<text x="403.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle" font-weight="normal">1NF</text>
+<rect x="430.0" y="78.0" width="340.0" height="150.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="444.0" y="98.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="bold">1NF — atomic values</text>
+<text x="444.0" y="120.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Order | Customer | Item</text>
+<text x="444.0" y="138.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1001 | Ravi     | Pen</text>
+<text x="444.0" y="156.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1001 | Ravi     | Book</text>
+<text x="444.0" y="182.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Still bad: Customer depends only on Order (part of the</text>
+<text x="444.0" y="196.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">key) → partial dependency.</text>
+<line x1="378.0" y1="216.0" x2="428.0" y2="240.0" stroke="#dc2626" stroke-width="1.6"/>
+<path d="M 428.0,240.0 L 420.0,240.6 L 423.5,233.4 Z" fill="#dc2626"/>
+<rect x="30.0" y="250.0" width="340.0" height="130.0" rx="6" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="44.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#4f46e5" text-anchor="start" font-weight="bold">2NF — no partial dependencies</text>
+<text x="44.0" y="292.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Orders:  Order | Customer</text>
+<text x="44.0" y="310.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1001   | Ravi</text>
+<text x="44.0" y="328.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Items:   Order | Item</text>
+<text x="44.0" y="346.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">1001   | Pen</text>
+<rect x="430.0" y="250.0" width="340.0" height="130.0" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="444.0" y="270.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#16a34a" text-anchor="start" font-weight="bold">3NF — no transitive dependencies</text>
+<text x="444.0" y="292.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Orders:  Order | CustID</text>
+<text x="444.0" y="310.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">Customers: CustID | City</text>
+<text x="444.0" y="336.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">City depended on Customer, not on the order key — move it</text>
+<text x="444.0" y="350.2" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">out.</text>
+<line x1="378.0" y1="316.0" x2="428.0" y2="316.0" stroke="#16a34a" stroke-width="1.6"/>
+<path d="M 428.0,316.0 L 421.1,320.0 L 421.1,312.0 Z" fill="#16a34a"/>
+<text x="403.0" y="320.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="middle" font-weight="normal">3NF</text>
+<text x="30.0" y="404.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">1NF = atomic cells. 2NF = 1NF + every non-key attribute depends on the WHOLE key. 3NF = 2NF + no non-key attribute depends on</text>
+<text x="30.0" y="419.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">another non-key attribute. BCNF = every determinant is a candidate key.</text>
+<text x="30.0" y="434.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Why bother? Normalization kills the insert / update / delete anomalies (e.g. changing a customer city in one row but not another).</text>
+</svg>

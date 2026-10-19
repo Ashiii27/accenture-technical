@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="719" height="399" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Nested Loops — Building the (i, j) Table Instead of Guessing</text>
+<rect x="30.0" y="74.0" width="320.0" height="34.0" rx="4" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="44.0" y="96.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="start" font-weight="bold">FOR i = 1 TO 3</text>
+<text x="190.0" y="96.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="start" font-weight="bold">FOR j = 1 TO i</text>
+<text x="320.0" y="96.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#111827" text-anchor="start" font-weight="bold">PRINT j</text>
+<text x="60.0" y="122.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">j →</text>
+<text x="30.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">i</text>
+<text x="30.0" y="170.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">↓</text>
+<rect x="60.0" y="130.0" width="58.0" height="26.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="89.0" y="148.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">j=1</text>
+<rect x="120.0" y="130.0" width="58.0" height="26.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="149.0" y="148.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">j=2</text>
+<rect x="180.0" y="130.0" width="58.0" height="26.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="209.0" y="148.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">j=3</text>
+<rect x="0.0" y="156.0" width="58.0" height="28.0" rx="3" fill="#f1f5f9" stroke="#475569" stroke-width="0.8"/>
+<text x="29.0" y="175.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">i=1</text>
+<rect x="60.0" y="156.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="89.0" y="175.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 1</text>
+<rect x="120.0" y="156.0" width="58.0" height="28.0" rx="3" fill="#f7f7f7" stroke="#e5e7eb" stroke-width="0.8"/>
+<rect x="180.0" y="156.0" width="58.0" height="28.0" rx="3" fill="#f7f7f7" stroke="#e5e7eb" stroke-width="0.8"/>
+<rect x="0.0" y="186.0" width="58.0" height="28.0" rx="3" fill="#f1f5f9" stroke="#475569" stroke-width="0.8"/>
+<text x="29.0" y="205.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">i=2</text>
+<rect x="60.0" y="186.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="89.0" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 1</text>
+<rect x="120.0" y="186.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="149.0" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 2</text>
+<rect x="180.0" y="186.0" width="58.0" height="28.0" rx="3" fill="#f7f7f7" stroke="#e5e7eb" stroke-width="0.8"/>
+<rect x="0.0" y="216.0" width="58.0" height="28.0" rx="3" fill="#f1f5f9" stroke="#475569" stroke-width="0.8"/>
+<text x="29.0" y="235.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">i=3</text>
+<rect x="60.0" y="216.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="89.0" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 1</text>
+<rect x="120.0" y="216.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="149.0" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 2</text>
+<rect x="180.0" y="216.0" width="58.0" height="28.0" rx="3" fill="#eef2ff" stroke="#4f46e5" stroke-width="0.8"/>
+<text x="209.0" y="235.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#111827" text-anchor="middle" font-weight="normal">prints 3</text>
+<text x="60.0" y="268.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Only the cells where j &lt;= i execute — the inner loop runs 1 + 2 + 3 = 6 times.</text>
+<text x="60.0" y="286.0" font-family="Courier New, Courier, monospace" font-size="11" fill="#6b7280" text-anchor="start" font-weight="bold">Output: 1   1 2   1 2 3</text>
+<rect x="400.0" y="118.0" width="290.0" height="240.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="416.0" y="140.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#d97706" text-anchor="start" font-weight="bold">Counting shortcuts</text>
+<text x="416.0" y="164.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">FOR i = 1..n, inner j = 1..n → n × n</text>
+<text x="416.0" y="204.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">FOR i = 1..n, inner j = 1..i → n(n+1)/2</text>
+<text x="416.0" y="244.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">FOR i = 1..n, inner j = i..n → n(n+1)/2</text>
+<text x="416.0" y="284.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Outer halves each time, inner n → O(n)</text>
+<text x="416.0" y="324.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">Three nested loops of n → O(n³)</text>
+<text x="30.0" y="374.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Exam habit: write the iteration table (i, j, output) on paper. Most wrong answers come from an off-by-one in the inner</text>
+<text x="30.0" y="389.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">bound, not from the maths.</text>
+</svg>

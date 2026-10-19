@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="428" viewBox="0 0 800 428" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="428" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="799" height="427" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">CSS Specificity — Which Rule Actually Wins</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Score = (inline, IDs, classes/attributes/pseudo-classes, elements)</text>
+<rect x="30.0" y="82.0" width="250.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="155.0" y="99.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Selector</text>
+<rect x="290.0" y="82.0" width="130.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="355.0" y="99.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Score</text>
+<rect x="430.0" y="82.0" width="340.0" height="28.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="600.0" y="99.6" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">Wins over</text>
+<rect x="30.0" y="110.0" width="250.0" height="30.0" rx="7" fill="#47556914" stroke="#475569" stroke-width="1.2"/>
+<text x="38.0" y="130.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">p</text>
+<rect x="290.0" y="110.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="130.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0-0-0-1</text>
+<rect x="430.0" y="110.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="130.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">nothing (weakest)</text>
+<rect x="30.0" y="142.0" width="250.0" height="30.0" rx="7" fill="#47556914" stroke="#475569" stroke-width="1.2"/>
+<text x="38.0" y="162.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">.note p</text>
+<rect x="290.0" y="142.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="162.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0-0-1-1</text>
+<rect x="430.0" y="142.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="162.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">p</text>
+<rect x="30.0" y="174.0" width="250.0" height="30.0" rx="7" fill="#4f46e514" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="38.0" y="194.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">#main p</text>
+<rect x="290.0" y="174.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="194.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0-1-0-1</text>
+<rect x="430.0" y="174.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="194.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">.note p  (IDs beat any number of classes)</text>
+<rect x="30.0" y="206.0" width="250.0" height="30.0" rx="7" fill="#4f46e514" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="38.0" y="226.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">#main .note p:hover</text>
+<rect x="290.0" y="206.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="226.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">0-1-2-1</text>
+<rect x="430.0" y="206.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">#main p</text>
+<rect x="30.0" y="238.0" width="250.0" height="30.0" rx="7" fill="#7c3aed14" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="38.0" y="258.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">style="..." (inline)</text>
+<rect x="290.0" y="238.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="258.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">1-0-0-0</text>
+<rect x="430.0" y="238.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="258.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">everything except !important</text>
+<rect x="30.0" y="270.0" width="250.0" height="30.0" rx="7" fill="#dc262614" stroke="#dc2626" stroke-width="1.2"/>
+<text x="38.0" y="290.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="bold">!important</text>
+<rect x="290.0" y="270.0" width="130.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="298.0" y="290.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">∞</text>
+<rect x="430.0" y="270.0" width="340.0" height="30.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.8"/>
+<text x="438.0" y="290.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">everything (avoid it)</text>
+<rect x="30.0" y="316.0" width="740.0" height="94.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="46.0" y="338.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#d97706" text-anchor="start" font-weight="bold">Worked example</text>
+<text x="46.0" y="358.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">p { color: green }  →  0-0-0-1</text>
+<text x="340.0" y="358.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="normal">.content p { color: blue }  →  0-0-1-1</text>
+<text x="46.0" y="378.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#111827" text-anchor="start" font-weight="bold">#main p { color: red }  →  0-1-0-1   WINS</text>
+<text x="46.0" y="398.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Compare left to right: the first position that differs decides. If two rules tie, the LAST one in the source wins.</text>
+</svg>

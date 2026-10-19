@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="770" height="510" viewBox="0 0 770 510" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="770" height="510" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="769" height="509" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">VLOOKUP — Argument by Argument (and the #N/A traps)</text>
+<text x="30.0" y="74.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="bold">Lookup table A2:C6</text>
+<rect x="30.0" y="82.0" width="34.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="38.0" y="100.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal"></text>
+<rect x="64.0" y="82.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="72.0" y="100.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">A</text>
+<rect x="184.0" y="82.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="192.0" y="100.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">B</text>
+<rect x="304.0" y="82.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="312.0" y="100.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">C</text>
+<rect x="30.0" y="108.0" width="34.0" height="26.0" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="38.0" y="126.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="bold">1</text>
+<rect x="64.0" y="108.0" width="120.0" height="26.0" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="72.0" y="126.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="bold">EmpID</text>
+<rect x="184.0" y="108.0" width="120.0" height="26.0" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="192.0" y="126.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="bold">Name</text>
+<rect x="304.0" y="108.0" width="120.0" height="26.0" rx="2" fill="#f1f5f9" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="312.0" y="126.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="bold">Salary</text>
+<rect x="30.0" y="134.0" width="34.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="38.0" y="152.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">2</text>
+<rect x="64.0" y="134.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="72.0" y="152.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">101</text>
+<rect x="184.0" y="134.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="192.0" y="152.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Amit</text>
+<rect x="304.0" y="134.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="312.0" y="152.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">50000</text>
+<rect x="30.0" y="160.0" width="34.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="38.0" y="178.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">3</text>
+<rect x="64.0" y="160.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="72.0" y="178.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">102</text>
+<rect x="184.0" y="160.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="192.0" y="178.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Bala</text>
+<rect x="304.0" y="160.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="312.0" y="178.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">70000</text>
+<rect x="30.0" y="186.0" width="34.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="38.0" y="204.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">4</text>
+<rect x="64.0" y="186.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="72.0" y="204.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">103</text>
+<rect x="184.0" y="186.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="192.0" y="204.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Chitra</text>
+<rect x="304.0" y="186.0" width="120.0" height="26.0" rx="2" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="312.0" y="204.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">60000</text>
+<text x="30.0" y="252.0" font-family="Courier New, Courier, monospace" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">=VLOOKUP( 102 , A2:C6 , 3 , FALSE )</text>
+<line x1="148.0" y1="236.0" x2="148.0" y2="222.0" stroke="#4f46e5" stroke-width="1.2"/>
+<path d="M 148.0,222.0 L 150.5,226.3 L 145.5,226.3 Z" fill="#4f46e5"/>
+<text x="148.0" y="216.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#4f46e5" text-anchor="middle" font-weight="bold">lookup_value</text>
+<line x1="232.0" y1="236.0" x2="232.0" y2="222.0" stroke="#0d9488" stroke-width="1.2"/>
+<path d="M 232.0,222.0 L 234.5,226.3 L 229.5,226.3 Z" fill="#0d9488"/>
+<text x="232.0" y="216.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#0d9488" text-anchor="middle" font-weight="bold">table_array</text>
+<line x1="322.0" y1="236.0" x2="322.0" y2="222.0" stroke="#d97706" stroke-width="1.2"/>
+<path d="M 322.0,222.0 L 324.5,226.3 L 319.5,226.3 Z" fill="#d97706"/>
+<text x="322.0" y="216.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#d97706" text-anchor="middle" font-weight="bold">col_index_num</text>
+<line x1="400.0" y1="236.0" x2="400.0" y2="222.0" stroke="#dc2626" stroke-width="1.2"/>
+<path d="M 400.0,222.0 L 402.5,226.3 L 397.5,226.3 Z" fill="#dc2626"/>
+<text x="400.0" y="216.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#dc2626" text-anchor="middle" font-weight="bold">range_lookup</text>
+<text x="30.0" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#4f46e5" text-anchor="start" font-weight="normal">•</text>
+<text x="46.0" y="282.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">lookup_value: What you are looking for (102)</text>
+<text x="30.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#0d9488" text-anchor="start" font-weight="normal">•</text>
+<text x="46.0" y="310.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">table_array: Whole table; the key MUST be the LEFTMOST column</text>
+<text x="30.0" y="338.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#d97706" text-anchor="start" font-weight="normal">•</text>
+<text x="46.0" y="338.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">col_index_num: Which column to return (3 = Salary)</text>
+<text x="30.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#dc2626" text-anchor="start" font-weight="normal">•</text>
+<text x="46.0" y="366.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">range_lookup: FALSE = exact • TRUE/omitted = approximate</text>
+<rect x="30.0" y="400.0" width="710.0" height="122.0" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.2"/>
+<text x="46.0" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#dc2626" text-anchor="start" font-weight="bold">Traps that cost marks</text>
+<text x="46.0" y="440.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">1. TRUE (or omitted) needs the first column sorted ASCENDING — otherwise you silently get a wrong row, not an error.</text>
+<text x="46.0" y="458.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">2. col_index counts from the left edge of table_array, NOT from column A.</text>
+<text x="46.0" y="478.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">3. VLOOKUP cannot look LEFT — use INDEX + MATCH for that.</text>
+<text x="46.0" y="498.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">4. Wrap it: =IFERROR(VLOOKUP(...), "Not Found") turns #N/A into something readable.</text>
+</svg>

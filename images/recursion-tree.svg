@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="448" viewBox="0 0 780 448" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="780" height="448" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="779" height="447" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Recursion — Call Tree and Unwinding (factorial 4)</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">Two phases: wind down to the base case, then unwind back up returning values</text>
+<rect x="40.0" y="80.0" width="110.0" height="42.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="95.0" y="99.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">fact(4)</text>
+<text x="95.0" y="114.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">4 * fact(3)</text>
+<line x1="70.0" y1="122.0" x2="110.0" y2="140.0" stroke="#475569" stroke-width="1.3"/>
+<path d="M 110.0,140.0 L 104.0,140.6 L 106.5,135.1 Z" fill="#475569"/>
+<text x="87.5" y="134.8" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">call</text>
+<rect x="100.0" y="140.0" width="110.0" height="42.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="155.0" y="159.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">fact(3)</text>
+<text x="155.0" y="174.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">3 * fact(2)</text>
+<line x1="130.0" y1="182.0" x2="170.0" y2="200.0" stroke="#475569" stroke-width="1.3"/>
+<path d="M 170.0,200.0 L 164.0,200.6 L 166.5,195.1 Z" fill="#475569"/>
+<text x="147.5" y="194.8" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">call</text>
+<rect x="160.0" y="200.0" width="110.0" height="42.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="215.0" y="219.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">fact(2)</text>
+<text x="215.0" y="234.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">2 * fact(1)</text>
+<line x1="190.0" y1="242.0" x2="230.0" y2="260.0" stroke="#475569" stroke-width="1.3"/>
+<path d="M 230.0,260.0 L 224.0,260.6 L 226.5,255.1 Z" fill="#475569"/>
+<text x="207.5" y="254.8" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6b7280" text-anchor="middle" font-weight="normal">call</text>
+<rect x="220.0" y="260.0" width="110.0" height="42.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="275.0" y="279.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#111827" text-anchor="middle" font-weight="bold">fact(1)</text>
+<text x="275.0" y="294.0" font-family="Courier New, Courier, monospace" font-size="9" fill="#111827" text-anchor="middle" font-weight="normal">BASE CASE → return 1</text>
+<text x="40.0" y="314.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#16a34a" text-anchor="start" font-weight="bold">Unwinding — return values bubble back up</text>
+<rect x="40.0" y="330.0" width="160.0" height="38.0" rx="7" fill="#4f46e518" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="120.0" y="354.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">fact(1) = 1</text>
+<line x1="200.0" y1="349.0" x2="226.0" y2="349.0" stroke="#16a34a" stroke-width="1.4"/>
+<path d="M 226.0,349.0 L 220.8,352.0 L 220.8,346.0 Z" fill="#16a34a"/>
+<rect x="226.0" y="330.0" width="160.0" height="38.0" rx="7" fill="#4f46e518" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="306.0" y="354.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">fact(2) = 2 × 1 = 2</text>
+<line x1="386.0" y1="349.0" x2="412.0" y2="349.0" stroke="#16a34a" stroke-width="1.4"/>
+<path d="M 412.0,349.0 L 406.8,352.0 L 406.8,346.0 Z" fill="#16a34a"/>
+<rect x="412.0" y="330.0" width="160.0" height="38.0" rx="7" fill="#4f46e518" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="492.0" y="354.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">fact(3) = 3 × 2 = 6</text>
+<line x1="572.0" y1="349.0" x2="598.0" y2="349.0" stroke="#16a34a" stroke-width="1.4"/>
+<path d="M 598.0,349.0 L 592.8,352.0 L 592.8,346.0 Z" fill="#16a34a"/>
+<rect x="598.0" y="330.0" width="160.0" height="38.0" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="678.0" y="354.0" font-family="Courier New, Courier, monospace" font-size="10" fill="#111827" text-anchor="middle" font-weight="bold">fact(4) = 4 × 6 = 24</text>
+<line x1="758.0" y1="349.0" x2="784.0" y2="349.0" stroke="#16a34a" stroke-width="1.4"/>
+<path d="M 784.0,349.0 L 778.8,352.0 L 778.8,346.0 Z" fill="#16a34a"/>
+<rect x="500.0" y="84.0" width="250.0" height="176.0" rx="6" fill="#fafafa" stroke="#94a3b8" stroke-width="1.2"/>
+<text x="516.0" y="104.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="bold">Call stack at the deepest point</text>
+<rect x="516.0" y="220.0" width="218.0" height="22.0" rx="3" fill="#f0fdf4" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="524.0" y="235.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">fact(1)  ← executing</text>
+<rect x="516.0" y="194.0" width="218.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="524.0" y="209.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">fact(2)</text>
+<rect x="516.0" y="168.0" width="218.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="524.0" y="183.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">fact(3)</text>
+<rect x="516.0" y="142.0" width="218.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="524.0" y="157.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">fact(4)</text>
+<rect x="516.0" y="116.0" width="218.0" height="22.0" rx="3" fill="#ffffff" stroke="#94a3b8" stroke-width="0.9"/>
+<text x="524.0" y="131.0" font-family="Courier New, Courier, monospace" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">main()</text>
+<text x="516.0" y="246.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">Stack is LIFO — the last call finishes first.</text>
+<text x="40.0" y="400.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">Always ask: (1) what is the base case? (2) does every recursive call move closer to it? (3) what does each frame return? No</text>
+<text x="40.0" y="415.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">base case = stack overflow.</text>
+</svg>
