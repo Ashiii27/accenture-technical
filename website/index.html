@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accenture Prep — Practice Platform</title>
+<meta name="description" content="Practice HTML/CSS/JS live and take timed mock assessments for the Accenture Technical Round.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#" data-view="landing">
+      <span class="logo-mark">A</span>
+      <span>accenture<span class="accent">prep</span></span>
+      <span class="badge">2025–26</span>
+    </a>
+    <div class="nav-links">
+      <button class="nav-link active" data-view="landing">Home</button>
+      <button class="nav-link" data-view="playground">Code Playground</button>
+      <button class="nav-link" data-view="assessment">Mock Assessment</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<!-- ===== LANDING ===== -->
+<main id="view-landing" class="view active">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Technical Round — 2025/2026 Pattern</p>
+        <h1>Two platforms.<br>One place to <span>clear it.</span></h1>
+        <p class="hero-sub">Practice live HTML / CSS / JS like the real coding round, and run timed 45-minute mock assessments with instant scoring — all offline, no sign-up.</p>
+        <div class="hero-cta">
+          <button class="btn btn-primary" data-view="playground">Open Playground →</button>
+          <button class="btn btn-ghost" data-view="assessment">Start Mock Test</button>
+        </div>
+        <div class="hero-stats">
+          <div><strong>560+</strong><span>MCQs from notes & mocks</span></div>
+          <div><strong>45 min</strong><span>Exam timer + scoring</span></div>
+          <div><strong>Live</strong><span>HTML / CSS / JS preview</span></div>
+        </div>
+      </div>
+      <div class="hero-cards">
+        <div class="plat-card" data-view="playground" role="button" tabindex="0">
+          <div class="plat-icon playground">◧</div>
+          <h3>Code Playground</h3>
+          <p>Write HTML, CSS &amp; JS side-by-side. Live preview, starter templates, console, and Accenture-style tasks (boxes, counters, tip calculator).</p>
+          <span class="plat-cta">Launch editor →</span>
+          <div class="plat-tags"><span>HTML</span><span>CSS</span><span>JS</span><span>DOM</span></div>
+        </div>
+        <div class="plat-card" data-view="assessment" role="button" tabindex="0">
+          <div class="plat-icon assessment">◎</div>
+          <h3>Mock Assessment</h3>
+          <p>45-min exam simulation or untimed practice. Pick topics (DSA, DBMS, OOPs, Networking, MS Office…) — instant marks, topic breakdown &amp; explanations.</p>
+          <span class="plat-cta">Start test →</span>
+          <div class="plat-tags"><span>DSA</span><span>DBMS</span><span>OOPs</span><span>OS</span><span>+ more</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pattern">
+    <h2>What the real exam looks like</h2>
+    <div class="pattern-grid">
+      <div class="pat"><h4>Technical MCQs <span>40 Q · 40 min</span></h4><p>12 MS Office + 18 Pseudocode/DSA/DBMS/OOPs + 10 Networking/Cloud. No negative marking.</p></div>
+      <div class="pat"><h4>Coding Round <span>45–60 min</span></h4><p>DSA (array/string) + SQL JOINs + Frontend (HTML/CSS/JS DOM task). Our playground mirrors Part 3 exactly.</p></div>
+      <div class="pat"><h4>Frontend Task <span>~20 min</span></h4><p>"Create coloured boxes / fix the counter / build the tip calculator." Click-handler + DOM manipulation is the core skill.</p></div>
+    </div>
+  </section>
+
+  <section class="how">
+    <h2>How to use this platform</h2>
+    <ol>
+      <li><strong>Learn</strong> from the notes (ch. 01–16) in the repo.</li>
+      <li><strong>Build</strong> in the Playground — every task comes from real Accenture frontend prompts.</li>
+      <li><strong>Test</strong> in Mock Assessment — 45-min timer, palette navigation, instant scoring &amp; weak-area breakdown.</li>
+    </ol>
+  </section>
+
+  <footer class="foot">Built from your study-guide repo · Questions auto-generated from chapter notes &amp; 5 hard-mock sets · Offline, no tracking.</footer>
+</main>
+
+<!-- ===== PLAYGROUND ===== -->
+<main id="view-playground" class="view">
+  <div class="play-top">
+    <div>
+      <h2>Code Playground <span>HTML · CSS · JS</span></h2>
+      <p>Live preview — type and see results instantly. Pick a template or start from scratch.</p>
+    </div>
+    <div class="play-actions">
+      <select id="templateSelect" class="select">
+        <option value="blank">Blank</option>
+        <option value="counter">Counter App (ch. 11)</option>
+        <option value="boxes">Coloured Boxes</option>
+        <option value="tipcalc">Tip Calculator (Mock 4)</option>
+        <option value="todo">Mini To-Do</option>
+      </select>
+      <button class="btn btn-sm" id="runBtn">Run ▶</button>
+      <button class="btn btn-sm btn-ghost" id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <div class="play-layout">
+    <div class="editors">
+      <div class="ed-tabbar">
+        <button class="ed-tab active" data-ed="html">HTML</button>
+        <button class="ed-tab" data-ed="css">CSS</button>
+        <button class="ed-tab" data-ed="js">JS</button>
+      </div>
+      <div class="ed-pane active" id="ed-html"><textarea id="code-html" spellcheck="false"></textarea></div>
+      <div class="ed-pane" id="ed-css"><textarea id="code-css" spellcheck="false"></textarea></div>
+      <div class="ed-pane" id="ed-js"><textarea id="code-js" spellcheck="false"></textarea></div>
+      <div class="console" id="console"><div class="console-head">Console <button id="clearConsole" class="link">clear</button></div><div id="consoleBody" class="console-body"></div></div>
+    </div>
+    <div class="preview-wrap">
+      <div class="preview-head"><span>Preview</span><span class="dot green"></span><span class="dot yellow"></span><span class="dot red"></span></div>
+      <iframe id="preview" title="Live preview" sandbox="allow-scripts allow-modals"></iframe>
+    </div>
+  </div>
+
+  <div class="tasks">
+    <h3>Practice Tasks <span>from real Accenture prompts</span></h3>
+    <div class="task-grid" id="taskGrid"></div>
+  </div>
+</main>
+
+<!-- ===== ASSESSMENT ===== -->
+<main id="view-assessment" class="view">
+  <!-- Setup -->
+  <div id="assess-setup" class="assess-setup">
+    <h2>Mock Assessment <span>DSA · DBMS · OOPs · Networking · All topics</span></h2>
+    <p class="muted">Pick topics, set the clock, and go. Scoring = 1 mark per correct, no negative marking — exactly like Accenture.</p>
+
+    <div class="setup-grid">
+      <div class="setup-card">
+        <h4>① Topics</h4>
+        <div id="topicChecks" class="checks"></div>
+        <label class="check all"><input type="checkbox" id="checkAll" checked> <strong>Select all</strong></label>
+      </div>
+      <div class="setup-card">
+        <h4>② Questions &amp; Timer</h4>
+        <div class="field">
+          <label>Number of questions</label>
+          <div class="pill-group" id="countGroup">
+            <button class="pill active" data-count="10">10</button>
+            <button class="pill" data-count="20">20</button>
+            <button class="pill" data-count="40">40</button>
+            <button class="pill" data-count="50">50</button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Mode</label>
+          <div class="pill-group" id="modeGroup">
+            <button class="pill" data-mode="practice">Practice <small>no timer</small></button>
+            <button class="pill active" data-mode="exam">Exam <small>45 min</small></button>
+          </div>
+        </div>
+        <div class="field">
+          <label>Question order</label>
+          <div class="pill-group" id="orderGroup">
+            <button class="pill active" data-order="shuffle">Shuffled</button>
+            <button class="pill" data-order="sequential">Sequential</button>
+          </div>
+        </div>
+        <div id="bankInfo" class="bank-info"></div>
+        <button id="startBtn" class="btn btn-primary btn-block btn-lg">Start Assessment →</button>
+        <p class="tiny muted">Tip: "Exam" locks the 45-min timer (Accenture pattern). "Practice" lets you take your time and review after each question.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live test -->
+  <div id="assess-live" class="assess-live hidden">
+    <div class="live-top">
+      <div class="live-progress"><div id="liveBar" class="live-bar"></div></div>
+      <div class="live-meta">
+        <span id="liveQpos">Q 1 / 20</span>
+        <span id="liveScore" class="muted">Answered 0 · Marked 0</span>
+        <span id="timer" class="timer">45:00</span>
+      </div>
+    </div>
+    <div class="live-body">
+      <div class="live-left">
+        <div id="qCard" class="q-card"></div>
+        <div class="q-nav">
+          <button id="prevBtn" class="btn btn-ghost btn-sm">← Previous</button>
+          <button id="clearBtn" class="btn btn-ghost btn-sm">Clear</button>
+          <button id="markBtn" class="btn btn-sm btn-mark">☆ Mark</button>
+          <button id="nextBtn" class="btn btn-primary btn-sm">Next →</button>
+        </div>
+      </div>
+      <aside class="palette">
+        <div class="pal-head">
+          <h4>Questions</h4>
+          <div class="legend"><span class="lg answered"></span> Answered <span class="lg marked"></span> Marked <span class="lg current"></span> Current</div>
+        </div>
+        <div id="paletteGrid" class="palette-grid"></div>
+        <button id="submitBtn" class="btn btn-primary btn-block">Submit Test</button>
+        <p id="submitHint" class="tiny muted"></p>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Results -->
+  <div id="assess-result" class="assess-result hidden">
+    <div id="resultHero" class="result-hero"></div>
+    <div id="topicBreakdown" class="topic-breakdown"></div>
+    <div class="result-actions">
+      <button id="reviewBtn" class="btn btn-primary">Review Answers</button>
+      <button id="retryBtn" class="btn btn-ghost">Retake (same set)</button>
+      <button id="newBtn" class="btn btn-ghost">New Test</button>
+    </div>
+    <div id="reviewList" class="review-list"></div>
+  </div>
+</main>
+
+<div id="toast" class="toast"></div>
+
+<script src="questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

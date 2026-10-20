@@ -449,6 +449,8 @@ RETURN -1
 
 ## 7.17 OOP Concepts Quick Reference (sometimes tested in pseudocode section)
 
+> **Full chapter:** all OOPs notes, 30 MCQs with explanations and coding practice live in [chapter 14 — OOPs](./14-oop-object-oriented-programming.md). This section is just the summary.
+
 - **Class**: blueprint defining attributes (fields) and methods (functions).
 - **Object**: instance of a class.
 - **Encapsulation**: bundling data + methods; hiding internal state (private/protected/public access).

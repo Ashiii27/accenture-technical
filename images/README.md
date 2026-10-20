@@ -1,6 +1,6 @@
 # Diagrams
 
-41 self-contained SVG diagrams that are embedded in the study-notes chapters at the
+51 self-contained SVG diagrams that are embedded in the study-notes chapters at the
 point where a picture explains the topic faster than prose.
 
 Every file is plain SVG: shapes, paths and `<text>` only — **no external fonts, scripts,
@@ -18,6 +18,8 @@ dependencies):
 | `diagrams_networking.py` | 14 figures for chapters 01 (networking/security/cloud) |
 | `diagrams_office_code.py` | 8 figures for chapters 02–03 (MS Office, pseudocode) |
 | `diagrams_data_web.py` | 19 figures for chapters 04–06, 11–12 (DSA, DBMS, SQL, frontend) |
+| `diagrams_oop.py` | 4 figures for chapter 14 (class vs object, inheritance hierarchy, inheritance shapes, polymorphism) |
+| `diagrams_os_java.py` | 6 figures for chapters 15–16 (process states, memory layout, scheduling Gantt charts, JVM architecture, String pool, exception hierarchy) |
 | `generate_all.py` | Driver — writes every `.svg` and runs a layout linter |
 
 ```bash
@@ -25,7 +27,7 @@ cd images
 python generate_all.py
 ```
 
-Success looks like: `41 diagrams written, 0 with layout warnings`.
+Success looks like: `51 diagrams written, 0 with layout warnings`.
 
 The linter flags two classes of problem:
 

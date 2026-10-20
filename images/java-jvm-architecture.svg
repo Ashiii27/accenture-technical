@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="440" viewBox="0 0 920 440" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="919" height="439" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Java Platform — JDK, JRE and the JVM</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">JDK ⊃ JRE ⊃ JVM — and what lives inside the JVM</text>
+<rect x="40.0" y="95.0" width="270.0" height="220.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="55.0" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#4f46e5" text-anchor="start" font-weight="bold">JDK — development kit</text>
+<rect x="60.0" y="135.0" width="230.0" height="165.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="75.0" y="158.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#0d9488" text-anchor="start" font-weight="bold">JRE — runtime</text>
+<rect x="80.0" y="175.0" width="190.0" height="110.0" rx="7" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="95.0" y="198.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#7c3aed" text-anchor="start" font-weight="bold">JVM — runs bytecode</text>
+<text x="95.0" y="215.0" font-family="Helvetica, Arial, sans-serif" font-size="8.5" fill="#6b7280" text-anchor="start" font-weight="normal">class loader + execution engine</text>
+<line x1="310.0" y1="205.0" x2="378.0" y2="205.0" stroke="#475569" stroke-width="1.4"/>
+<path d="M 378.0,205.0 L 371.9,208.5 L 371.9,201.5 Z" fill="#475569"/>
+<text x="380.0" y="118.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#111827" text-anchor="start" font-weight="bold">Inside the JVM</text>
+<rect x="380.0" y="135.0" width="510.0" height="52.0" rx="7" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="394.0" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="start" font-weight="bold">Class Loader</text>
+<text x="394.0" y="175.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">loads .class files into memory</text>
+<rect x="380.0" y="199.0" width="510.0" height="52.0" rx="7" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="394.0" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="start" font-weight="bold">Runtime Data Areas</text>
+<text x="394.0" y="239.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">heap, thread stacks, method area, PC registers</text>
+<rect x="380.0" y="263.0" width="510.0" height="52.0" rx="7" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="394.0" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="start" font-weight="bold">Execution Engine</text>
+<text x="394.0" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">interpreter + JIT compiler (hot code → native)</text>
+<rect x="380.0" y="327.0" width="510.0" height="52.0" rx="7" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="394.0" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#7c3aed" text-anchor="start" font-weight="bold">Native Method Interface</text>
+<text x="394.0" y="367.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="start" font-weight="normal">calls into OS / C libraries</text>
+<rect x="40.0" y="400.0" width="850.0" height="30.0" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.2"/>
+<text x="54.0" y="420.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Java compiles to bytecode (.class), not machine code — any JVM on any OS can run it: “write once, run anywhere”.</text>
+</svg>
