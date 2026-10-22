@@ -15,6 +15,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import diagrams_networking as dn  # noqa: E402
 import diagrams_office_code as doc  # noqa: E402
 import diagrams_data_web as ddw  # noqa: E402
+import diagrams_oop as dop  # noqa: E402
+import diagrams_os_java as osj  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = HERE
@@ -23,6 +25,8 @@ SETS = [
     ('networking', dn.NETWORKING),
     ('office & pseudocode', doc.OFFICE_CODE),
     ('dsa / dbms / sql / frontend', ddw.DATA_WEB),
+    ('oop', dop.OOP),
+    ('os / java', osj.OS_JAVA),
 ]
 
 CHAR_W = 0.56

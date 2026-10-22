@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="380" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="919" height="379" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Process States — the 5-State Model</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">The OS moves every process through these states; the scheduler only picks from Ready</text>
+<rect x="60.0" y="130.0" width="120.0" height="50.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="120.0" y="159.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">New</text>
+<rect x="280.0" y="130.0" width="120.0" height="50.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="340.0" y="159.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">Ready</text>
+<rect x="500.0" y="130.0" width="120.0" height="50.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="560.0" y="159.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">Running</text>
+<rect x="720.0" y="130.0" width="120.0" height="50.0" rx="7" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="780.0" y="159.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111827" text-anchor="middle" font-weight="bold">Waiting</text>
+<rect x="500.0" y="290.0" width="120.0" height="50.0" rx="7" fill="#f1f5f9" stroke="#475569" stroke-width="1.2"/>
+<text x="560.0" y="319.1" font-family="Helvetica, Arial, sans-serif" font-size="11.5" fill="#111827" text-anchor="middle" font-weight="bold">Terminated</text>
+<line x1="180.0" y1="155.0" x2="280.0" y2="155.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 280.0,155.0 L 273.9,158.5 L 273.9,151.5 Z" fill="#4f46e5"/>
+<text x="230.0" y="159.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">admitted</text>
+<line x1="400.0" y1="155.0" x2="500.0" y2="155.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 500.0,155.0 L 493.9,158.5 L 493.9,151.5 Z" fill="#4f46e5"/>
+<text x="450.0" y="159.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">scheduler</text>
+<line x1="620.0" y1="155.0" x2="720.0" y2="155.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 720.0,155.0 L 713.9,158.5 L 713.9,151.5 Z" fill="#4f46e5"/>
+<text x="670.0" y="159.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">I/O request</text>
+<line x1="560.0" y1="180.0" x2="560.0" y2="290.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 560.0,290.0 L 556.5,283.9 L 563.5,283.9 Z" fill="#4f46e5"/>
+<text x="566.0" y="238.3" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">exit</text>
+<line x1="560.0" y1="130.0" x2="560.0" y2="70.0" stroke="#4f46e5" stroke-width="1.4"/>
+<line x1="560.0" y1="70.0" x2="340.0" y2="70.0" stroke="#4f46e5" stroke-width="1.4"/>
+<line x1="340.0" y1="70.0" x2="340.0" y2="130.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 340.0,130.0 L 336.5,123.9 L 343.5,123.9 Z" fill="#4f46e5"/>
+<text x="450.0" y="84.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">preempted</text>
+<line x1="780.0" y1="180.0" x2="780.0" y2="240.0" stroke="#4f46e5" stroke-width="1.4"/>
+<line x1="780.0" y1="240.0" x2="340.0" y2="240.0" stroke="#4f46e5" stroke-width="1.4"/>
+<line x1="340.0" y1="240.0" x2="340.0" y2="180.0" stroke="#4f46e5" stroke-width="1.4"/>
+<path d="M 340.0,180.0 L 343.5,186.1 L 336.5,186.1 Z" fill="#4f46e5"/>
+<text x="560.0" y="226.0" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">I/O complete</text>
+<text x="40.0" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Ready ↔ Running is the scheduler’s job; Running ↔ Waiting is driven by I/O events. A process only reaches Terminated from Running.</text>
+</svg>

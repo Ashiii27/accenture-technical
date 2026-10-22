@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="440" viewBox="0 0 920 440" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="920" height="440" fill="#ffffff"/>
+<rect x="0.5" y="0.5" width="919" height="439" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+<text x="30.0" y="34.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111827" text-anchor="start" font-weight="bold">Class vs Object — Blueprint vs Instance</text>
+<text x="30.0" y="53.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6b7280" text-anchor="start" font-weight="normal">A class defines the structure once; every object is a separate copy in memory</text>
+<rect x="40.0" y="95.0" width="250.0" height="32.0" rx="7" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.2"/>
+<text x="165.0" y="115.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">class Car</text>
+<rect x="40.0" y="127.0" width="250.0" height="148.0" rx="7" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+<line x1="40.0" y1="173.0" x2="290.0" y2="173.0" stroke="#94a3b8" stroke-width="1"/>
+<text x="52.0" y="150.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">- brand : String</text>
+<text x="52.0" y="168.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">- speed : int</text>
+<text x="52.0" y="196.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#16a34a" text-anchor="start" font-weight="normal">+ accelerate()</text>
+<text x="52.0" y="214.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#16a34a" text-anchor="start" font-weight="normal">+ brake()</text>
+<text x="52.0" y="232.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#16a34a" text-anchor="start" font-weight="normal">+ refuel(amt)</text>
+<text x="52.0" y="258.0" font-family="Helvetica, Arial, sans-serif" font-size="9" fill="#6b7280" text-anchor="start" font-weight="normal">- = private   + = public</text>
+<rect x="560.0" y="95.0" width="300.0" height="72.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="574.0" y="119.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="start" font-weight="bold">car1 = new Car()</text>
+<text x="574.0" y="143.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">brand='Swift'   speed=0</text>
+<rect x="560.0" y="187.0" width="300.0" height="72.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="574.0" y="211.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="start" font-weight="bold">car2 = new Car()</text>
+<text x="574.0" y="235.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">brand='Civic'   speed=60</text>
+<rect x="560.0" y="279.0" width="300.0" height="72.0" rx="7" fill="#ecfdf5" stroke="#0d9488" stroke-width="1.2"/>
+<text x="574.0" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#0d9488" text-anchor="start" font-weight="bold">car3 = new Car()</text>
+<text x="574.0" y="327.0" font-family="Courier New, Courier, monospace" font-size="10.5" fill="#6b7280" text-anchor="start" font-weight="normal">brand='Fortuner' speed=35</text>
+<line x1="290.0" y1="150.0" x2="560.0" y2="131.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 560.0,131.0 L 554.2,134.9 L 553.7,127.9 Z" fill="#0d9488"/>
+<text x="425.4" y="144.6" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">creates</text>
+<line x1="290.0" y1="201.0" x2="560.0" y2="223.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 560.0,223.0 L 553.7,226.0 L 554.2,219.0 Z" fill="#0d9488"/>
+<text x="424.5" y="216.1" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">creates</text>
+<line x1="290.0" y1="252.0" x2="560.0" y2="315.0" stroke="#0d9488" stroke-width="1.4"/>
+<path d="M 560.0,315.0 L 553.3,317.0 L 554.9,310.2 Z" fill="#0d9488"/>
+<text x="423.6" y="287.4" font-family="Helvetica, Arial, sans-serif" font-size="9.5" fill="#6b7280" text-anchor="middle" font-weight="normal">creates</text>
+<rect x="40.0" y="372.0" width="840.0" height="48.0" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1.2"/>
+<text x="54.0" y="394.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">Each object holds its OWN copy of the fields — change car2.speed and car1/car3 are untouched. The methods exist once, inside the class, shared</text>
+<text x="54.0" y="409.0" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#111827" text-anchor="start" font-weight="normal">by every object.</text>
+</svg>
